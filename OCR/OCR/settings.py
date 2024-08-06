@@ -42,6 +42,7 @@ INSTALLED_APPS = [
 
 OTHER_APP = [
     'Home',
+    'InvoiceOCR'
 ]
 
 INSTALLED_APPS += OTHER_APP

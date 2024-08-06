@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+#drop-area {
+    border: 2px dashed #4a90e2;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#drop-area.highlight {
+    border-color: #007bff;
+}
+
+#drop-area img {
+    max-width: 100%;
+    height: auto; /* Ensure the image maintains its aspect ratio */
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+#upload-form {
+    display: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.image-container, .table-container {
+    flex: 1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+#highlightTd {
+    text-align: center;
+}
+
+.accurate {
+    background-color: #d4edda; /* Light green */
+}
+
+.fixed {
+    background-color: #fff3cd; /* Light yellow */
+}
+
+.not-sure {
+    background-color: #ffa8af; /* Light red */
+}
+
+.missing {
+    background-color: #e2e3e5; /* Light gray */
+}
+
+.highlighted-cell {
+    background-color: #d3d3d3; /* Highlighted cell color */
+}
+
+#tax-count {
+    font-weight: bold;
+    color: #333;
+    margin: 20px;
+}
+
+@media (max-width: 768px) {
+    #drop-area {
+        width: 95%;
+    }
+
+    table {
+        width: 95%;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
