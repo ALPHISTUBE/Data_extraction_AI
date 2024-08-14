@@ -6,63 +6,30 @@ import numpy as np
 from dateutil import parser
 from PIL import Image
 
-from django.shortcuts import render
-from .forms import UploadImageForm
 from django.core.files.storage import FileSystemStorage
 
-def index(request):
-    extracted_text = ""
-    if request.method == 'POST':
-        form = UploadImageForm(request.POST, request.FILES)
-        if form.is_valid():
-            imagef = form.cleaned_data['image']
-            fs = FileSystemStorage()
-            filename = fs.save(imagef.name, imagef)
-            uploaded_file_url = fs.url(filename)
-
-            # Extract text and get image URLs
-            extracted_text, dpi = getText2CV1(filename)
-
-            # Process extracted text
-            currectionData, tm, date = formatTextFromReceipt(extracted_text)
-
-            return render(request, 'main/index.html', {
-                'form': form,
-                'uploaded_file_url': uploaded_file_url,
-                'extracted_text': currectionData,
-                'taxCount': tm,
-                'date' : date,
-                "dpi": dpi
-            })
-    else:
-        form = UploadImageForm()
-    return render(request, 'main/index.html', {'form': form, 'extracted_text': extracted_text})
-
-#Image to text
-
-#version 1
-def getText(filename):
-    # Extract text using PyTesseract
+def Scan(imagef):
     fs = FileSystemStorage()
-    img2 = glob.glob(fs.path(filename))
+    filename = fs.save(imagef.name, imagef)
+    # Extract text and get image URLs
+    extracted_text, dpi = getText2CV(filename)
+    print(extracted_text)
+    # Process extracted text
+    currectionData, tm, date = formatTextFromReceipt(extracted_text)
 
-    extracted_text = ""
-    for i, image in enumerate(img2):
-        extracted_text = pytesseract.image_to_string(image, lang='eng')
-            
-    return extracted_text
+    data = [
+        "recepit",
+        dpi,
+        date,
+        tm,
+        currectionData
+    ]
+    print(data)
 
-#version 2
-def getText2CV(filename):
-    fs = FileSystemStorage()
-    img_path = fs.path(filename)
-    img = cv2.imread(img_path)
-    imgScaled = cv2.resize(img, None, fx=1.2, fy=1.2, interpolation=cv2.INTER_CUBIC)
-    gray = cv2.cvtColor(imgScaled, cv2.COLOR_BGR2GRAY)
-    
-    return pytesseract.image_to_string(gray)
+    return data
 
-#version3
+
+#Image Processing
 def autoScale(img, path):
     dpi = findImgDPI(path)
     if dpi != 1:
@@ -90,7 +57,7 @@ def findImgDPI(path):
     except:
         pass
 
-def getText2CV1(filename):
+def getText2CV(filename):
     fs = FileSystemStorage()
     img_path = fs.path(filename)
 

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload and Processing</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/iocr/styles.css' %}">
+</head>
+<body>
+
+    <h1>Upload an Image</h1>
+
+    <div id="drop-area">
+        <p>Drag and drop an image here, or <button type="button" onclick="document.getElementById('fileElem').click()">select an image</button></p>
+        <input type="file" id="fileElem" style="display:none" accept="image/*" onchange="handleFiles(this.files)">
+    </div>
+
+    <form id="upload-form" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" id="file-input" name="image">
+        <button type="submit">Upload</button>
+    </form>
+
+    {% if uploaded_file_url %}
+    <div class="container">
+        <div class="image-container">
+            <h2>Uploaded Image:</h2>
+            <img src="{{ uploaded_file_url }}" alt="Uploaded Image">
+            <h2>Processed Image:</h2>
+            <img src="{{ processed_file_url }}" alt="Processed Image">
+            <h2>Scaled Image:</h2>
+            <img src="{{ scaled_file_url }}" alt="Scaled Image">
+        </div>
+        <div class="table-container">
+            {% if extracted_text %}
+            <table id="dataTable">
+                <thead>
+                    <tr class="tax-count-row">
+                        <td colspan="4">Image DPI: {{ dpi }}</td>
+                    </tr> 
+                    <tr class="tax-count-row">
+                        <td colspan="4">Date: {{ date }}</td>
+                    </tr>                  
+                    <tr>
+                        <th>Key</th>
+                        <th>Extracted Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for key, value in extracted_text.items %}
+                    <tr>
+                        <th>{{key}}</th>
+                        <th>{{value}}</th>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            {% endif %}
+        </div>
+    </div>
+    {% endif %}
+
+    <script src="{% static 'js/iocr/scripts.js' %}"></script>
+
+</body>
+</html>
