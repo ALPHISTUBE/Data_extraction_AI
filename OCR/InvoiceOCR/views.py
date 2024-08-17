@@ -27,7 +27,7 @@ def index(request):
             extracted_text, dpi = getText2CV(filename)
             print(extracted_text)
             # Process extracted text
-            currectionData, tm, date = formatTextFromReceipt(extracted_text)
+            currectionData, date, totalA = formatTextFromReceipt(extracted_text)
             print(currectionData)
             print(date)
 
@@ -35,7 +35,7 @@ def index(request):
                 'form': form,
                 'uploaded_file_url': uploaded_file_url,
                 'extracted_text': currectionData,
-                'taxCount': tm,
+                'totalA': totalA,
                 'date' : date,
                 "dpi" : dpi
             })
@@ -107,18 +107,49 @@ def currectSpelling(text):
 
 def formatTextFromReceipt(text : str):
     et = {}
-    taxMax = 0
 
     lines = text.splitlines(text)
     dates = []
+    total_amount = 0.0
     indexl = 0
     for line in lines:
-        indexl += 1
         line = line.lower()
         #line = line.replace("~","-")
-        #line = line.replace("\n","")
+        line = line.replace("\n","")
+        line = line.replace("_"," ")
         #line = currectSpelling(line)
-        et[f"Line:{indexl}"] = line
+
+        date = ""
+        dt_ext = extract_dates(line)
+
+        if len(dt_ext) > 0:
+            indexl += 1
+            date = dt_ext[0]
+            line = line.replace(date, "")
+            line = line.replace(",", "")
+
+            data2 = re.findall(r"\d+\.\d+\.\d+", line)
+            if len(data2) > 0:
+                dt = str(data2[0][0:len(data2[0]) - 3])
+                dt = dt.replace(".", "")
+                print(f"len:{len(data2[0])}---{dt}")
+                float_data = [float(dt)]
+            else:
+                data = re.findall(r"\d+\.\d+", line)
+                float_data = [float(num) for num in data]
+            print(float_data)
+            if len(float_data) > 0:
+                total_amount += float_data[0]
+                line = line.replace(data[0], "")
+                # et[f"{indexl}"] = f"Date:{date}, Name:{line}, Amount:{data[0]}"
+                et[f"{indexl}"] = [date, line, data[0]]
+            else:
+                # et[f"{indexl}"] = f"Date:{date}, Name:{line}, Amount: NONE"
+                et[f"{indexl}"] = [date, line, "NONE"]
+        else:
+            #et[f"Line:{indexl}"] = line
+            pass
+
         #Date
         try:
             # Try parsing the date
@@ -129,11 +160,11 @@ def formatTextFromReceipt(text : str):
         except ValueError:
             # Not a date
             continue
-
+    print(total_amount)
     if len(dates) != 0:
-        return et, taxMax, dates[0]
+        return et, dates[0], total_amount
     else:
-        return et, taxMax, "No Date Found"
+        return et, "No Date Found", total_amount
 
 def extract_dates(text):
     # Define regex pattern for common date formats (e.g., MM/DD/YYYY, DD/MM/YYYY, YYYY-MM-DD)
@@ -142,7 +173,12 @@ def extract_dates(text):
         r'\b\d{2}-\d{2}-\d{4}\b',  # MM-DD-YYYY
         r'\b\d{4}-\d{2}-\d{2}\b',  # YYYY-MM-DD
         r'\b\d{2}/\d{2}/\d{2}\b',  # MM/DD/YY
-        r'\b\d{2}-\d{2}-\d{2}\b'   # DD-MM-YY
+        r'\b\d{2}-\d{2}-\d{2}\b',   # DD-MM-YY
+        r'\b\d{2}/\d{2}\b',  # MM/DD
+        r'\b\d{2}-\d{2}\b',  # MM-DD
+        r'\b\d{2}-\d{2}\b',  # YYYY-MM
+        r'\b\d{2}/\d{2}\b',  # MM/DD
+        r'\b\d{2}-\d{2}\b'   # DD-MM
     ]
     
     dates = []

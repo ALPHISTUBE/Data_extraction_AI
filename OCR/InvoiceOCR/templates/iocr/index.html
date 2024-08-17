@@ -41,17 +41,24 @@
                     </tr> 
                     <tr class="tax-count-row">
                         <td colspan="4">Date: {{ date }}</td>
-                    </tr>                  
+                    </tr>
+                    <tr class="tax-count-row">
+                        <td colspan="4">Total Amount: {{ totalA }}</td>
+                    </tr>                   
                     <tr>
-                        <th>Key</th>
-                        <th>Extracted Value</th>
+                        <th>Trans</th>
+                        <th>Date</th>
+                        <th>Description</th>
+                        <th>Amount</th>
                     </tr>
                 </thead>
                 <tbody>
                     {% for key, value in extracted_text.items %}
                     <tr>
                         <th>{{key}}</th>
-                        <th>{{value}}</th>
+                        <th>{{value.0}}</th>
+                        <th>{{value.1}}</th>
+                        <th id="highlightTd" class="{% if value.2 == 'NONE' %}not-sure{% else  %}accurate{% endif %}">{{value.2}}</th>
                     </tr>
                     {% endfor %}
                 </tbody>
