@@ -22,9 +22,10 @@ def index(request):
 
             # Extract text and get image URLs
             extracted_text, dpi = getText2CV1(filename)
+            print(extracted_text)
 
             # Process extracted text
-            currectionData, tm, date = formatTextFromReceipt(extracted_text)
+            currectionData, tm, date, productDetail, totalProductPrice, totalDiscountPrice = formatTextFromReceipt(extracted_text)
 
             return render(request, 'main/index.html', {
                 'form': form,
@@ -32,35 +33,16 @@ def index(request):
                 'extracted_text': currectionData,
                 'taxCount': tm,
                 'date' : date,
-                "dpi": dpi
+                "dpi": dpi,
+                "productDetail" : productDetail,
+                "totalProductPrice" : totalProductPrice,
+                "totalDiscountPrice" : totalDiscountPrice,
             })
     else:
         form = UploadImageForm()
     return render(request, 'main/index.html', {'form': form, 'extracted_text': extracted_text})
 
 #Image to text
-
-#version 1
-def getText(filename):
-    # Extract text using PyTesseract
-    fs = FileSystemStorage()
-    img2 = glob.glob(fs.path(filename))
-
-    extracted_text = ""
-    for i, image in enumerate(img2):
-        extracted_text = pytesseract.image_to_string(image, lang='eng')
-            
-    return extracted_text
-
-#version 2
-def getText2CV(filename):
-    fs = FileSystemStorage()
-    img_path = fs.path(filename)
-    img = cv2.imread(img_path)
-    imgScaled = cv2.resize(img, None, fx=1.2, fy=1.2, interpolation=cv2.INTER_CUBIC)
-    gray = cv2.cvtColor(imgScaled, cv2.COLOR_BGR2GRAY)
-    
-    return pytesseract.image_to_string(gray)
 
 #version3
 def autoScale(img, path):
@@ -135,6 +117,12 @@ requiretRecepitField = {
 
 def formatTextFromReceipt(text : str):
     et = {}
+
+    productIndex = 0
+    productDetailExtraction = {}
+    totalProductPrice = 0.0
+    totalProductDiscount = 0.0
+    
     taxMax = 0
     bankT = False
 
@@ -143,6 +131,23 @@ def formatTextFromReceipt(text : str):
     for line in lines:
         line = line.lower()
         
+
+        #Product
+        hasKey = any(keyword.lower() in line for keyword in receiptKey)
+        if not hasKey:
+            productPrice = re.findall(r"\d+\.\d+", line)
+            discountPrice = re.findall(r"\d+\.\d+\-", line)
+            if len(productPrice) > 0:
+                line = line.replace(productPrice[0], "")
+                float_productPrice = [float(num) for num in productPrice]
+                if len(discountPrice) > 0:
+                    totalProductDiscount += float_productPrice[len(float_productPrice) - 1]
+                else:
+                    totalProductPrice += float_productPrice[len(float_productPrice) - 1]
+                    
+                productIndex += 1
+                productDetailExtraction[productIndex] = [line, productPrice[len(productPrice) - 1]]
+
         #Date
         try:
             # Try parsing the date
@@ -158,30 +163,15 @@ def formatTextFromReceipt(text : str):
         for kw in receiptKey:
             
             if line.find(kw) != -1:
-                stpos = line.find('tax')
+                sttaxpos = line.find('tax')
+                sttotalpos = line.find('total')
+                stsubpos = line.find('sub')
                 
-                if stpos != -1 and stpos != 0:
-                    text = line[0:stpos]
-                    t = text.find('total')
-                    if t != -1 and t != 0:
-                        text2 = line[0:t]
-                        line = line.removeprefix(text2)
-                        # print(f"{kw}:{t},{text},{line}")
-                    else:
-                        line = line.removeprefix(text)
-                        # print(f"{kw}:{t},{text},{line}")
-
-                stpos = line.find('total')
-                
-                if stpos != -1 and stpos != 0:
-                    t = text.find('sub')
-                    if t != -1 and t != 0:
-                        text2 = line[0:t]
-                        line = line.removeprefix(text2)
-                        # print(f"{kw}:{t},{text},{line}")
-                    else:
-                        line = line.removeprefix(text)
-                        # print(f"{kw}:{t},{text},{line}")
+                if sttaxpos != -1 and sttotalpos != -1:
+                    line = line.replace(line, "")
+                if sttaxpos != -1 and sttotalpos == -1:
+                    text = line[0:sttaxpos]
+                    line = line.removeprefix(text)
 
                 stpos = line.find(kw)
                 
@@ -190,8 +180,20 @@ def formatTextFromReceipt(text : str):
                     line = line.removeprefix(text)
                 
                     # print(f"{kw}:{text},{line}")
+            
+            if et.get(kw) == None and line.find('discount') != -1 and kw == "discount":
+                line = line.replace(" ", "")
+                line = line.replace(",", ".")
+                data = (re.findall(r"\d+\.\d+", line))
+                float_data = [float(num) for num in data]
 
-            if et.get(kw) == None and line.startswith(kw) and kw != 'tax':
+                if len(float_data) != 0:
+                    et[kw] = float_data[0]
+                    totalProductDiscount =float_data[0]
+                else:
+                    et[kw] = totalProductDiscount
+
+            if et.get(kw) == None and line.startswith(kw) and kw != 'tax' and kw != 'discount':
                 line = line.replace(" ", "")
                 line = line.replace(",", ".")
                 if kw == "visa" or kw == "debit" or kw == "credit":
@@ -216,6 +218,10 @@ def formatTextFromReceipt(text : str):
                     requiretRecepitField[taxKw] = {}
                     taxMax += 1
 
+    totalProductPrice -= totalProductDiscount
+    et["estimatedSubtotal"] = totalProductPrice
+    et['estimatedDiscount'] = totalProductDiscount
+
     noTaxText = False
     if taxMax == 0:
         noTaxText = True
@@ -226,9 +232,9 @@ def formatTextFromReceipt(text : str):
     et = validate_and_fill_receipt_data(et, noTaxText)
 
     if len(dates) != 0:
-        return et, taxMax, dates[0]
+        return et, taxMax, dates[0], productDetailExtraction, totalProductPrice, totalProductDiscount
     else:
-        return et, taxMax, "No Date Found"
+        return et, taxMax, "No Date Found", productDetailExtraction, totalProductPrice, totalProductDiscount
 def extract_dates(text):
     # Define regex pattern for common date formats (e.g., MM/DD/YYYY, DD/MM/YYYY, YYYY-MM-DD)
     date_patterns = [
@@ -268,6 +274,7 @@ def validate_and_fill_receipt_data(receipt_data, noTaxTextFoundInReceipt):
     change = receipt_data.get('change')
     subtotal = receipt_data.get('subtotal')
     vat = receipt_data.get('vat')
+    etSubtotal = receipt_data.get('estimatedSubtotal')
     discount = receipt_data.get('discount')
     debit = receipt_data.get('debit')
     credit = receipt_data.get('credit')
@@ -288,7 +295,9 @@ def validate_and_fill_receipt_data(receipt_data, noTaxTextFoundInReceipt):
         if total is not None and subtotal is not None:
             if total != subtotal:
                 # Validate using other values
-                if cash is not None and change is not None:
+                if subtotal is not None and etSubtotal is not None and subtotal == etSubtotal:
+                    total = etSubtotal
+                elif cash is not None and change is not None:
                     # Checking validation for cash and change
                     common_cash_change_validation_algo(total, cash, change, bank_transfer)
 
@@ -304,8 +313,24 @@ def validate_and_fill_receipt_data(receipt_data, noTaxTextFoundInReceipt):
                         subtotal = cash - change
                         total = subtotal
                 elif debit is not None:
-                    total = debit
-                    subtotal = total
+                    if debit == total:
+                        total = debit
+                        subtotal = debit
+                    else:
+                        # Checking validation for cash and change
+                        common_cash_change_validation_algo(total, cash, change, bank_transfer)
+
+                        # If cash and change are provided, use them to validate total
+                        val1 = cash - change
+                        val2 = debit + cash
+                        val3 = debit + change
+
+                        if val1 == val2:
+                            total = cash - change
+                            subtotal = total
+                        elif val1 == val3:
+                            subtotal = cash - change
+                            total = subtotal
                 elif credit is not None:
                     total = credit
                     subtotal = total
@@ -320,7 +345,10 @@ def validate_and_fill_receipt_data(receipt_data, noTaxTextFoundInReceipt):
         elif total is not None and subtotal is None:
             subtotal = total
         elif subtotal is not None and total is None:
-            total = subtotal
+            if subtotal is not None and etSubtotal is not None and subtotal == etSubtotal:
+                    total = etSubtotal
+            else:
+                total = subtotal
     else:
         if total is not None and subtotal is not None:
             val2 = total - subtotal

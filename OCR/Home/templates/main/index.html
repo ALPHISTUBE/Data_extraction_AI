@@ -44,7 +44,25 @@
                     </tr>
                     <tr class="tax-count-row">
                         <td colspan="4">Max Tax Count: {{ taxCount }}</td>
-                    </tr>                    
+                    </tr>
+                    <tr>
+                        <th colspan="1">NO</th>
+                        <th colspan="2">Product</th>
+                        <th colspan="1">Price</th>
+                    </tr>
+                    {% for key, value in productDetail.items %}
+                    <tr>
+                        <th colspan="1">{{ key }}</th>
+                        <th colspan="2">{{ value.0 }}</th>
+                        <th colspan="1">{{ value.1 }}</th>
+                    </tr>
+                    {% endfor %}
+                    <tr class="tax-count-row">
+                        <td colspan="4">Discount: {{ totalDiscountPrice }}</td>
+                    </tr>
+                    <tr class="tax-count-row">
+                        <td colspan="4">Subtotal: {{ totalProductPrice }}</td>
+                    </tr>                  
                     <tr>
                         <th>Keyword</th>
                         <th>Extracted Value</th>
