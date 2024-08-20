@@ -45,6 +45,7 @@ INSTALLED_APPS = [
 OTHER_APP = [
     'Home',
     'InvoiceOCR',
+    'reconciliation',
     
     #api
     'rest_framework',

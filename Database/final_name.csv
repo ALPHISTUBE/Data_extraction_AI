@@ -1,0 +1,31 @@
+Date,Transaction Type,Description,Amount,Status
+2024-04-01,Receipt,Walmart,-290.96,
+2024-04-03,Receipt,KFC,-79.5,
+2024-04-05,Check Deposit,Opzo,2000.0,
+2024-04-12,Receipt,McDonald,-126.8,
+2024-04-15,Deposit,Md Hasan,1200.0,
+2024-04-16,Withdrawal,Personal,-500.0,
+2024-04-21,Receipt,JK Tool Shop,-350.89,
+2024-04-26,Deposit,Rana Islam,3000.0,
+2024-04-28,Deposit,Zoro LTD,6500.9,
+2024-04-30,Withdrawal,Personal,-3000.0,
+2024-04-19,Check Withdrawal,JK Tool Shop,-1000.0,
+2024-04-23,Check Withdrawal,Megna,-1800.0,
+2024-04-03,Receipt,,-90.0,From Bank
+2024-04-06,Check Withdrawal,,-4000.0,From Bank
+2024-04-22,Deposit,,7500.0,From Bank
+2024-04-03,Receipt,KFC,-90.0,
+2024-04-05,Check Deposit,Opzo,2000.0,
+2024-04-06,Check Withdrawal,Nasa,-4000.0,
+2024-04-15,Deposit,Md Hasan,1200.0,
+2024-04-16,Withdrawal,Personal,-500.0,
+2024-04-19,Check Withdrawal,JK Tool Shop,-1000.0,
+2024-04-21,Receipt,JK Tool Shop,-350.89,
+2024-04-22,Deposit,Rana Islam,7500.0,
+2024-04-26,Deposit,Rana Islam,3000.0,
+2024-04-28,Deposit,Zoro LTD,6500.9,
+2024-04-30,Withdrawal,Personal,-3000.0,
+2024-04-01,Receipt,,-290.96,From Book
+2024-04-03,Receipt,,-79.5,From Book
+2024-04-12,Receipt,,-126.8,From Book
+2024-04-23,Check Withdrawal,,-1800.0,From Book

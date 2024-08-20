@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reconciliation Results</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/br/styles.css' %}">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Reconciliation Results</h1>        
+        
+        <div class="grid">
+            <div class="grid-item" style="grid-column: span 2;">
+                <table class="results">
+                    <tr>
+                        <th>Description</th>
+                        <th>Results</th>
+                    </tr>
+                    <tr>
+                        <td><p>Sum of Updated Receipt Transactions</p></td>
+                        <td><p>{{ sum_updated_receipt }}</p></td>
+                    </tr>
+                    <tr>
+                        <td><p>Sum of Updated Bank Transactions</p></td>
+                        <td><p>{{ sum_updated_bank }}</p></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" id="result-br"><p>Reconciliation Status: {{ reconciliation_status }}</p></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Book Pass and Bank Pass Tables -->
+        <div class="grid">
+            <div class="grid-item">
+                <h2>Book Pass</h2>
+                <table>
+                    <tr>
+                        <th>Date</th>
+                        <th>Transaction Type</th>
+                        <th>Amount</th>
+                    </tr>
+                    {% for row in book_pass.itertuples %}
+                    <tr>
+                        <td>{{ row.Date }}</td>
+                        <td>{{ row.Transaction_Type }}</td>
+                        <td>{{ row.Amount }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+            <div class="grid-item">
+                <h2>Bank Pass</h2>
+                <table>
+                    <tr>
+                        <th>Date</th>
+                        <th>Transaction Type</th>
+                        <th>Amount</th>
+                    </tr>
+                    {% for row in bank_pass.itertuples %}
+                    <tr>
+                        <td>{{ row.Date }}</td>
+                        <td>{{ row.Transaction_Type }}</td>
+                        <td>{{ row.Amount }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </div>
+
+        <!-- Removed Check Withdrawal Transactions -->
+        <div class="grid">
+            <div class="grid-item" style="grid-column: span 2;">
+                <h2>Removed Check Withdrawal Transactions</h2>
+                <table>
+                    <tr>
+                        <th>Date</th>
+                        <th>Transaction Type</th>
+                        <th>Amount</th>
+                        <th>Status</th>
+                    </tr>
+                    {% for row in removed_check_withdrawal.itertuples %}
+                    <tr>
+                        <td>{{ row.Date }}</td>
+                        <td>{{ row.Transaction_Type }}</td>
+                        <td>{{ row.Amount }}</td>
+                        <td>{{ row.Status }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </div>
+
+        <!-- Unmatched Book Pass and Unmatched Bank Pass -->
+        <div class="grid">
+            <div class="grid-item">
+                <h2>Unmatched Book Pass</h2>
+                <table>
+                    <tr>
+                        <th>Date</th>
+                        <th>Transaction Type</th>
+                        <th>Amount</th>
+                        <th>Status</th>
+                    </tr>
+                    {% for row in unmatched_book_pass.itertuples %}
+                    <tr class="{% if row.Status == 'From Book' or row.Status == 'From Bank' %}from-book{% elif row.Status == 'Amount Updated' %}amount-updated{% else %}matched{% endif %}">
+                        <td>{{ row.Date }}</td>
+                        <td>{{ row.Transaction_Type }}</td>
+                        <td>{{ row.Amount }}</td>
+                        <td>{{ row.Status }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+            <div class="grid-item">
+                <h2>Unmatched Bank Pass</h2>
+                <table>
+                    <tr>
+                        <th>Date</th>
+                        <th>Transaction Type</th>
+                        <th>Amount</th>
+                        <th>Status</th>
+                    </tr>
+                    {% for row in unmatched_bank_pass.itertuples %}
+                    <tr class="{% if row.Status == 'From Book' or row.Status == 'From Bank' %}from-book{% elif row.Status == 'Amount Updated' %}amount-updated{% else %}matched{% endif %}">
+                        <td>{{ row.Date }}</td>
+                        <td>{{ row.Transaction_Type }}</td>
+                        <td>{{ row.Amount }}</td>
+                        <td>{{ row.Status }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </div>
+
+        <!-- Updated Receipt and Updated Bank Transactions -->
+        <div class="grid">
+            <div class="grid-item">
+                <h2>Updated Receipt Transactions</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Transaction Type</th>
+                            <th>Amount</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for row in updated_receipt_df.itertuples %}
+                        <tr class="{% if row.Status == 'From Book' or row.Status == 'From Bank' %}from-book{% elif row.Status == 'Amount Updated' %}amount-updated{% else %}matched{% endif %}">
+                            <td>{{ row.Date }}</td>
+                            <td>{{ row.Transaction_Type }}</td>
+                            <td>{{ row.Amount }}</td>
+                            <td>{{ row.Status }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            <div class="grid-item">
+                <h2>Updated Bank Transactions</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Transaction Type</th>
+                            <th>Amount</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for row in updated_bank_df.itertuples %}
+                        <tr class="{% if row.Status == 'From Book' or row.Status == 'From Bank' %}from-book{% elif row.Status == 'Amount Updated' %}amount-updated{% else %}matched{% endif %}">
+                            <td>{{ row.Date }}</td>
+                            <td>{{ row.Transaction_Type }}</td>
+                            <td>{{ row.Amount }}</td>
+                            <td>{{ row.Status }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

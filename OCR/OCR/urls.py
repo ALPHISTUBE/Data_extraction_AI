@@ -8,4 +8,5 @@ urlpatterns = [
     path('', include('Home.urls')),  # Ensure 'Home.urls' is your app's URLs module
     path('', include('InvoiceOCR.urls')),  # Ensure 'Home.urls' is your app's URLs module
     path('', include('Api.urls')),  # Ensure 'Home.urls' is your app's URLs module
+    path('', include('reconciliation.urls')),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
