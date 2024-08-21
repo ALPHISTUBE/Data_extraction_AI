@@ -58,8 +58,12 @@ form {
     gap: 20px;
 }
 
-.image-container, .table-container {
+.image-container {
     flex: 1;
+}
+
+.table-container {
+    flex: 2;
 }
 
 table {
