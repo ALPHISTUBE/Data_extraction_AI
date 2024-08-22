@@ -98,7 +98,7 @@ def formatTableTextFromLine(text):
     et = {}
     lines = text.splitlines()
     dates = []
-    mainDate = ""
+    mainDate = ""  
     total_amount = 0.0
     indexl = 0
     for line in lines:
@@ -109,7 +109,20 @@ def formatTableTextFromLine(text):
             indexl += 1
             date = dt_ext[0]
             dates.append(date)
-            line = line.replace(date, "").replace(",", "")
+            data1 = re.findall(r"\d+\,\d+", line)
+            data2 = re.findall(r"\d+\,\d+\.\d+", line)
+            if not data1:
+                line = line.replace(date, "").replace(",", "")
+            else:
+                if not data2:
+                    text = data1[0]
+                    line = line.replace(text, "")
+                    text = text.replace(",", ".")
+                    line = line + text
+                    line = line.replace(date, "").replace(",", "")
+                else:
+                    line = line.replace(date, "").replace(",", "")
+
             data = re.findall(r"\d+\.\d+", line)
             float_data = [float(num) for num in data] if data else []
             if float_data:

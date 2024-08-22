@@ -1,0 +1,794 @@
+PAGE 1
+
+CHASE o April 01, 2023 through April 28, 2023
+
+Je Morten Chace BankeN Account Number: 000000651915792
+
+Columbus, OH 43218-2051
+
+CUSTOMER SERVICE INFORMATION
+
+Web site: Chase.com
+
+Service Center: 1-800-242-7338
+00019350 DRE 034 211 11923 NNNNNNNNNNN_ 1 000000000 64 0000 Para Espanol: 1-888-622-4273
+MAHAJAN LAW LLC International Calls: 1-713-262-1679
+4520 EAST WEST HWY We accept operator relay calls
+
+ST 700
+BETHESDA MD 20814
+
+| CHECKING SUMMARY | Chase Business Complete Checking
+
+INSTANCES AMOUNT
+Beginning Balance $41,371.26
+Deposits and Additions 197 217,765.09
+ATM & Debit Card Withdrawals 9 -6,474.08
+Electronic Withdrawals 34 -194,629.53
+Other Withdrawals 1 -5,455.00
+Ending Balance 241 $52,577.74
+
+Congratulations, we waived the $15 Monthly Service Fee for this statement period, based on your qualifying activity.
+
+How to Avoid the Monthly Service Fee (MSF)
+If you meet any of the following qualifying activities for this Chase Business Complete Checking™ account in a statement
+period, we will waive the $15 MSF.
+
+Here's the business activity we used to determine if you qualified for the MSF waiver:
+¢ $2,000 Minimum Daily Ending Balance: Your lowest daily ending balance was $15,118.80.
+
+¢ $2,000 Chase Payment Solutions “Activity: $0.00 was deposited into this account.
+* $2,000 Chase Ink” Business Card Activity: $12,487.77 was your total Ink activity.
+
+You can also avoid the MSF if you:
+* Maintain a linked Chase Private Client Checking™ account OR
+e¢ Meet Chase Military Banking requirements
+
+For complete details on all requirements to avoid the MSF, please review the Additional Banking Services and Fees for
+Business Accounts at chase.com/business/disclosures or visit a Chase branch.
+
+[DEPOSITS AND ADDITIONS
+
+DATE DESCRIPTION AMOUNT
+04/03 Zelle Payment From Javed Miandad 16985022294 $2,530.00
+04/03 Zelle Payment From Sakur Mahmud WfctORSJqs3X 2,530.00
+04/03 Zelle Payment From Linkan Sarker WfctORSGaqtf2 2,500.00
+04/03 Zelle Payment From Shahriar Kabir Mntxj7Zjzljz 2,500.00
+04/03 Zelle Payment From Khang Huynh WfctORSJjjzk 1,615.00
+04/03 Zelle Payment From Golam Kibria Ctz01Ugd9Xcf 1,500.00
+04/03 Zelle Payment From Rajat Das Gupta Bacpenmvpgq2 1,035.00
+04/03 Zelle Payment From Ahsan Islam Pncaa0Emw38! 1,000.00
+04/03 Zelle Payment From S Jahid Hasan WfctOR5Jb2Sg 880.00
+
+Page 1 of 10
+
+00193600501000000025
+
+['04/03', ' zelle payment from javed miandad 16985022294 $', '2530.00']
+['04/03', ' zelle payment from sakur mahmud wfctorsjqs3x ', '2530.00']
+['04/03', ' zelle payment from linkan sarker wfctorsgaqtf2 ', '2500.00']
+['04/03', ' zelle payment from shahriar kabir mntxj7zjzljz ', '2500.00']
+['04/03', ' zelle payment from khang huynh wfctorsjjjzk ', '1615.00']
+['04/03', ' zelle payment from golam kibria ctz01ugd9xcf ', '1500.00']
+['04/03', ' zelle payment from rajat das gupta bacpenmvpgq2 ', '1035.00']
+['04/03', ' zelle payment from ahsan islam pncaa0emw38! ', '1000.00']
+['04/03', ' zelle payment from s jahid hasan wfctor5jb2sg ', '880.00']
+
+PAGE 2
+
+DEPOSITS AND ADDITIONS| one?)
+
+DATE DESCRIPTION AMOUNT
+04/03 Zelle Payment From Anjuman Ara WfctOR5G4Mjz 500.00
+04/03 Zelle Payment From MD Johaeir Bin Latif BaccezySUabe 500.00
+04/03 Zelle Payment From MD Johaeir Bin Latif BachbvjvdxsO 500.00
+04/03 Zelle Payment From MD Johaeir Bin Latif Bacg49Cc8Cl4 500.00
+04/03 Zelle Payment From MD Johaeir Bin Latif Bacfr3Woc84C 500.00
+04/03 Zelle Payment From MD Johaeir Bin Latif Bacbcfmaqlbn 500.00
+04/03 Zelle Payment From Lubana Mazumder Baclc6Wqzu2R 500.00
+04/03 Zelle Payment From Siddik Alom 16986917514 500.00
+04/03 Zelle Payment From Mst Shamira Sultana 16702259701 500.00
+04/03 Zelle Payment From MD Nazimuddin 16983325182 500.00
+04/03 Zelle Payment From Tirtha Nandi Baco6S5G4M9B3 500.00
+04/03 Zelle Payment From Fnu Aktaruzzaman Snv01Uhdpdaw 500.00
+04/03 Zelle Payment From MD Kawsar WfctORS5Dpjrd 500.00
+04/03 Zelle Payment From MD Khirul Anam 16996762951 500.00
+04/03 Zelle Payment From MD Hoque PncaaOElv67D 380.00
+04/03 Zelle Payment From Zunaid Almamun 16999918921 165.00
+04/03 Zelle Payment From MD Rumman UI Ahsan Usbqa7Qe9Mw3 110.35
+04/03 Zelle Payment From Providence Fokuo Adu Bacgy7Zv0Dod 104.12
+04/03 Orig CO Name:Merch Svc Orig 1D:1246827607 Desc Date:230331 CO Entry 6.18
+
+Descr:Bkcrd Dep Sec:CCD _ Trace#:061100603425534 Eed:230403 Ind
+
+1D:899000004340574 Ind Name:Mahajan Law LLC Op Trn: 0933425534Tc
+04/04 Zelle Payment From Monir Hossain WfctORSKz8Yc 3,230.00
+04/04 Zelle Payment From Adekunle Ogundele Pncaa0Env73G 2,000.00
+04/04 Orig CO Name:Merch Svc Orig 1D:1246827607 Desc Date:230403 CO Entry 1,800.00
+
+Descr:Bkcrd Dep Sec:CCD Trace#:061100603395385 Eed:230404 Ind
+
+1D:899000004340574 Ind Name:Mahajan Law LLC Op Trn: 0943395385Tc
+04/04 Orig CO Name:Merch Svc Orig 1D:1246827607 Desc Date:230403 CO Entry 875.50
+
+Descr:Bkcrd Dep Sec:CCD Trace#:061100603395386 Eed:230404 Ind
+
+1D:899000004340574 Ind Name:Mahajan Law LLC Op Trn: 0943395386Tc
+04/04 Zelle Payment From Mohammad M Hasan UsbtjnOEabpt 730.00
+04/04 Zelle Payment From MD Islam WfctORSLfqdk 730.00
+04/04 Zelle Payment From Mahade Masud Bacr8J908D61 500.00
+04/04 Zelle Payment From MD Imran Sarker 17008150462 500.00
+04/04 Zelle Payment From MD Ismail Hosen Bacob2A9Fd89 200.00
+04/04 Zelle Payment From Daniyal Siddiqui Bacf9Zx3Gn1X 6.00
+04/05 Orig CO Name:Merch Svc Orig 1D:1246827607 Desc Date:230404 CO Entry 5,761.50
+
+Descr:Bkcrd Dep Sec:CCD _ Trace#:061100601178626 Eed:230405 Ind
+
+1D:899000004340574 Ind Name:Mahajan Law LLC Op Trn: 0951178626Tc
+04/05 Zelle Payment From Miraz Mamun WfctORSMrb7C 3,230.00
+04/05 Zelle Payment From MD Islam Cofifienxefd 2,500.00
+04/05 Zelle Payment From Khang Huynh WfctORSN9XIc 1,615.00
+04/05 Zelle Payment From Sk Shawon Cofckc6Ympuz 520.91
+04/05 Zelle Payment From Faria Rob Baca0Dmwiizk 500.00
+04/05 Zelle Payment From Gabriel Adeneye Cofmtym5Xa39 500.00
+04/05 Zelle Payment From Mahfuz Ahmed 17016720674 500.00
+04/05 Zelle Payment From Munshi Yazdan 17010633149 400.00
+04/05 Orig CO Name:Hancock Whitney Orig 1D:8065503681 Desc Date: CO Entry 0.34
+
+Descr:Acctverifysec:Web Trace#:065503685019669 Eed:230405 Ind ID:Sharat Chandra
+Ind Name:Sharat Chandra Barman Trn: 0955019669Tc
+04/05 Orig CO Name:Hancock Whitney Orig 1D:8065503681 Desc Date: CO Entry 0.21
+Descr:Acctverifysec:Web Trace#:065503685019670 Eed:230405 Ind ID:Sharat Chandra
+Ind Name:Sharat Chandra Barman Trn: 0955019670Tc
+
+['04/03', ' zelle payment from anjuman ara wfctor5g4mjz ', '500.00']
+['04/03', ' zelle payment from md johaeir bin latif baccezysuabe ', '500.00']
+['04/03', ' zelle payment from md johaeir bin latif bachbvjvdxso ', '500.00']
+['04/03', ' zelle payment from md johaeir bin latif bacg49cc8cl4 ', '500.00']
+['04/03', ' zelle payment from md johaeir bin latif bacfr3woc84c ', '500.00']
+['04/03', ' zelle payment from md johaeir bin latif bacbcfmaqlbn ', '500.00']
+['04/03', ' zelle payment from lubana mazumder baclc6wqzu2r ', '500.00']
+['04/03', ' zelle payment from siddik alom 16986917514 ', '500.00']
+['04/03', ' zelle payment from mst shamira sultana 16702259701 ', '500.00']
+['04/03', ' zelle payment from md nazimuddin 16983325182 ', '500.00']
+['04/03', ' zelle payment from tirtha nandi baco6s5g4m9b3 ', '500.00']
+['04/03', ' zelle payment from fnu aktaruzzaman snv01uhdpdaw ', '500.00']
+['04/03', ' zelle payment from md kawsar wfctors5dpjrd ', '500.00']
+['04/03', ' zelle payment from md khirul anam 16996762951 ', '500.00']
+['04/03', ' zelle payment from md hoque pncaaoelv67d ', '380.00']
+['04/03', ' zelle payment from zunaid almamun 16999918921 ', '165.00']
+['04/03', ' zelle payment from md rumman ui ahsan usbqa7qe9mw3 ', '110.35']
+['04/03', ' zelle payment from providence fokuo adu bacgy7zv0dod ', '104.12']
+['04/03', ' orig co name:merch svc orig 1d:1246827607 desc date:230331 co entry ', '6.18']
+['04/04', ' zelle payment from monir hossain wfctorskz8yc .', '003.230']
+['04/04', ' zelle payment from adekunle ogundele pncaa0env73g .', '002.000']
+['04/04', ' orig co name:merch svc orig 1d:1246827607 desc date:230403 co entry .', '001.800']
+['04/04', ' orig co name:merch svc orig 1d:1246827607 desc date:230403 co entry ', '875.50']
+['04/04', ' zelle payment from mohammad m hasan usbtjnoeabpt ', '730.00']
+['04/04', ' zelle payment from md islam wfctorslfqdk ', '730.00']
+['04/04', ' zelle payment from mahade masud bacr8j908d61 ', '500.00']
+['04/04', ' zelle payment from md imran sarker 17008150462 ', '500.00']
+['04/04', ' zelle payment from md ismail hosen bacob2a9fd89 ', '200.00']
+['04/04', ' zelle payment from daniyal siddiqui bacf9zx3gn1x ', '6.00']
+['04/05', ' orig co name:merch svc orig 1d:1246827607 desc date:230404 co entry .', '505.761']
+['04/05', ' zelle payment from miraz mamun wfctorsmrb7c .', '003.230']
+['04/05', ' zelle payment from md islam cofifienxefd .', '002.500']
+['04/05', ' zelle payment from khang huynh wfctorsn9xic .', '001.615']
+['04/05', ' zelle payment from sk shawon cofckc6ympuz ', '520.91']
+['04/05', ' zelle payment from faria rob baca0dmwiizk ', '500.00']
+['04/05', ' zelle payment from gabriel adeneye cofmtym5xa39 ', '500.00']
+['04/05', ' zelle payment from mahfuz ahmed 17016720674 ', '500.00']
+['04/05', ' zelle payment from munshi yazdan 17010633149 ', '400.00']
+['04/05', ' orig co name:hancock whitney orig 1d:8065503681 desc date: co entry ', '0.34']
+['04/05', ' orig co name:hancock whitney orig 1d:8065503681 desc date: co entry ', '0.21']
+
+PAGE 3
+
+DEPOSITS AND ADDITIONS| on7“e?)
+
+DATE DESCRIPTION AMOUNT
+04/06 Orig CO Name:Paypal Orig ID:Paypalsd11 Desc Date:230406 CO Entry 3,198.53
+Descr:Transfer Sec:PPD Trace##:021000028798860 Eed:230406 Ind ID:
+Ind Name:Mahajan Law LLC Trn: 0968798860Tc
+
+04/06 Zelle Payment From Nusrat Qurashi Prithom WfctORSRs7Yf 1,500.00
+04/06 Zelle Payment From MD Joynal Abedin 17022147542 500.00
+04/06 Zelle Payment From Zahid Hasan Dipu Bach25xXtONt2 500.00
+04/06 Zelle Payment From Muhammad Islam 21V01Ujf4G3M 500.00
+04/06 Zelle Payment From MD Rakibul Alam Bach6Oyfbmq8 500.00
+04/06 Zelle Payment From Mahamudul Hasan WfctOR5Qdvry 500.00
+04/06 Zelle Payment From Adit Doza 17023113881 500.00
+04/06 Zelle Payment From Valrie Grant Baclhm9xm943 200.00
+04/06 Zelle Payment From Mohammad Salauddin Kader BacladdjOGcu 18.57
+04/07 Online Transfer From Chk ...2003 Transaction#: 17029721987 20,000.00
+04/07 Zelle Payment From Kizito Mukuni WfctORS5Svm9D 1,500.00
+04/07 Orig CO Name:Merch Svc Orig 1D:1246827607 Desc Date:230406 CO Entry 1,000.00
+
+Descr:Bkcrd Dep Sec:CCD _ Trace#:061100603061031 Eed:230407 Ind
+
+1D:899000004340574 Ind Name:Mahajan Law LLC Op Trn: 0973061031Tc
+04/07 Zelle Payment From Olatunde Oladehin Bbt170921756 500.00
+04/07 Zelle Payment From Mahfuz Ahmed 17033996152 500.00
+04/07 Zelle Payment From MD Safigul Islam 17034265079 500.00
+04/07 Zelle Payment From Taufiq Abdullah BacoSDR79WV8 211.50
+04/07 Zelle Payment From Ademola F Karonwi 17033897222 200.00
+04/10 Orig CO Name:Merch Svc Orig 1D:1246827607 Desc Date:230407 CO Entry 2,385.50
+
+Descr:Bkcrd Dep Sec:CCD _  Trace#:061100601456746 Eed:230410 Ind
+
+1D:899000004340574 Ind Name:Mahajan Law LLC Op Trn: 1001456746Tc
+04/10 Zelle Payment From Oluwaseun Shadare 17048370669 2,000.00
+04/10 Zelle Payment From Mohammad M Hasan Usbhahlecjc4 2,000.00
+04/10 Orig CO Name:Lawpay Orig 1D:1721601420 Desc Date:Apr 10 CO Entry 500.00
+
+Descr:Echeck Sec:CCD _ Trace#:091000016679096 Eed:230410 Ind
+
+1D:000000004517753 Ind Name:Mahajan Law LLC
+
+Ngmxtdoen18Qhoyvegcb Trn: 1006679096Tc
+04/10 Zelle Payment From Muhammad Islam 21V01UIg2Qq9 500.00
+04/10 Zelle Payment From Kizito Mukuni WfctOR5Z3356 500.00
+04/10 Zelle Payment From MD Jabed Hasan Bacgnzjthzgl 468.30
+04/10 Zelle Payment From MD Rubel Ahmed Bacg9Wzxngga 400.00
+04/10 Zelle Payment From Abrar Faiyaz 17045993111 250.00
+04/10 Zelle Payment From MD Hasan PncaaQEqk04E 228.00
+04/10 Zelle Payment From Vishwas Dsouza 17047691429 200.00
+04/10 Zelle Payment From Sabrina Gulmatova PncaaQErx88Z 200.00
+04/10 Zelle Payment From Syed Joy 17046395809 11,50
+04/10 Zelle Payment From Javed Miandad 17037397688 11.50
+04/10 Zelle Payment From Rosemary Akoh WfctOR5Zy4Vb 6.00
+04/11 Orig CO Name:Merch Svc Orig 1D:1246827607 Desc Date:230410 CO Entry 2,060.00
+
+Descr:Bkcrd Dep Sec:CCD _ Trace#:061100600503818 Eed:230411 Ind
+
+1D:899000004340574 Ind Name:Mahajan Law LLC Op Trn: 1010503818Tc
+04/11 Zelle Payment From Abdulmalik Ismail RgnOHtphm92V 2,000.00
+04/11 Orig CO Name:Lawpay Orig 1D:1721601420 Desc Date:Apr 11 CO Entry 1,200.00
+
+Descr:Echeck Sec:CCD  Trace#:091000015486886 Eed:230411 Ind
+
+1D:000000004528725 Ind Name:Mahajan Law LLC
+
+Zqrsmchgsfgmvhatl4Yz Tr: 1015486886Tc
+04/11 Orig CO Name:Merch Svc Orig 1D:1246827607 Desc Date:230410 CO Entry 500.00
+
+Descr:Bkcrd Dep Sec:CCD __ Trace#:061100600503819 Eed:230411 Ind
+
+1D:899000004340574 Ind Name:Mahajan Law LLC Op Trn: 1010503819Tc
+
+04/11 Zelle Payment From Mohammad M Hasan Usbezx8Ecacg 500.00
+
+
+['04/06', ' orig co name:paypal orig id:paypalsd11 desc date:230406 co entry ', '3198.53']
+['04/06', ' zelle payment from nusrat qurashi prithom wfctorsrs7yf ', '1500.00']
+['04/06', ' zelle payment from md joynal abedin 17022147542 ', '500.00']
+['04/06', ' zelle payment from zahid hasan dipu bach25xxtont2 ', '500.00']
+['04/06', ' zelle payment from muhammad islam 21v01ujf4g3m ', '500.00']
+['04/06', ' zelle payment from md rakibul alam bach6oyfbmq8 ', '500.00']
+['04/06', ' zelle payment from mahamudul hasan wfctor5qdvry ', '500.00']
+['04/06', ' zelle payment from adit doza 17023113881 ', '500.00']
+['04/06', ' zelle payment from valrie grant baclhm9xm943 ', '200.00']
+['04/06', ' zelle payment from mohammad salauddin kader bacladdjogcu ', '18.57']
+['04/07', ' online transfer from chk ...2003 transaction#: 17029721987 ', '20000.00']
+['04/07', ' zelle payment from kizito mukuni wfctors5svm9d ', '1500.00']
+['04/07', ' orig co name:merch svc orig 1d:1246827607 desc date:230406 co entry ', '1000.00']
+['04/07', ' zelle payment from olatunde oladehin bbt170921756 ', '500.00']
+['04/07', ' zelle payment from mahfuz ahmed 17033996152 ', '500.00']
+['04/07', ' zelle payment from md safigul islam 17034265079 ', '500.00']
+['04/07', ' zelle payment from taufiq abdullah bacosdr79wv8 ', '211.50']
+['04/07', ' zelle payment from ademola f karonwi 17033897222 ', '200.00']
+['04/10', ' orig co name:merch svc orig 1d:1246827607 desc date:230407 co entry ', '2385.50']
+['04/10', ' zelle payment from oluwaseun shadare 17048370669 ', '2000.00']
+['04/10', ' zelle payment from mohammad m hasan usbhahlecjc4 ', '2000.00']
+['04/10', ' orig co name:lawpay orig 1d:1721601420 desc date:apr 10 co entry ', '500.00']
+['04/10', ' zelle payment from muhammad islam 21v01uig2qq9 ', '500.00']
+['04/10', ' zelle payment from kizito mukuni wfctor5z3356 ', '500.00']
+['04/10', ' zelle payment from md jabed hasan bacgnzjthzgl ', '468.30']
+['04/10', ' zelle payment from md rubel ahmed bacg9wzxngga ', '400.00']
+['04/10', ' zelle payment from abrar faiyaz 17045993111 ', '250.00']
+['04/10', ' zelle payment from md hasan pncaaqeqk04e ', '228.00']
+['04/10', ' zelle payment from vishwas dsouza 17047691429 ', '200.00']
+['04/10', ' zelle payment from sabrina gulmatova pncaaqerx88z ', '200.00']
+['04/10', ' zelle payment from syed joy 17046395809 ', '11.50']
+['04/10', ' zelle payment from javed miandad 17037397688 ', '11.50']
+['04/10', ' zelle payment from rosemary akoh wfctor5zy4vb ', '6.00']
+['04/11', ' orig co name:merch svc orig 1d:1246827607 desc date:230410 co entry ', '2060.00']
+['04/11', ' zelle payment from abdulmalik ismail rgnohtphm92v ', '2000.00']
+['04/11', ' orig co name:lawpay orig 1d:1721601420 desc date:apr 11 co entry ', '1200.00']
+['04/11', ' orig co name:merch svc orig 1d:1246827607 desc date:230410 co entry ', '500.00']
+['04/11', ' zelle payment from mohammad m hasan usbezx8ecacg ', '500.00']
+
+PAGE 4
+
+DEPOSITS AND ADDITIONS| on7“e?)
+
+DATE DESCRIPTION AMOUNT
+04/11 Zelle Payment From Oluwakemi Adewale Cofozcd7WV8G 500.00
+04/11 Zelle Payment From Dipongkor Saha Back493396Rs 500.00
+04/11 Zelle Payment From Mohammad M Hasan Usbnxitecabw 500.00
+04/11 Zelle Payment From Sharif Abdul Wahab 17063620303 500.00
+04/11 Orig CO Name:Merch Svc Orig 1D:1246827607 Desc Date:230410 CO Entry 200.00
+
+Descr:Bkcrd Dep Sec:CCD _ Trace#:061100600503820 Eed:230411 Ind
+
+1D:899000004340574 Ind Name:Mahajan Law LLC Op Trn: 1010503820Tc
+04/12 Orig CO Name:Merch Svc Orig 1D:1246827607 Desc Date:230411 CO Entry 2,732.00
+
+Descr:Bkcrd Dep Sec:CCD Trace#:061100605731305 Eed:230412 Ind
+
+1D:899000004340574 Ind Name:Mahajan Law LLC Op Trn: 1025731305Tc
+04/12 Zelle Payment From Sabia Sultana 17070520859 1,000.00
+04/12 Zelle Payment From Osaretin Sesebor Bacihaaca6UO 1,000.00
+04/12 Zelle Payment From Naseef Mansoor Baca4Yajkmgq 1,000.00
+04/12 Zelle Payment From Risul Islam 17071794511 540.80
+04/12 Zelle Payment From Arif Aziz Wfct0R65457F 500.00
+04/12 Zelle Payment From MD Halim WfctOR65Xplh 500.00
+04/12 Zelle Payment From Tahmina Rahman BacoONfgpnxx 6.00
+04/13 Zelle Payment From Mayowa Agbetunsin ArvOHtrifr11 2,000.00
+04/13 Zelle Payment From Shahriar Kabir Mntk7Fghcsrq 2,000.00
+04/13 Orig CO Name:Merch Svc Orig 1D:1246827607 Desc Date:230412 CO Entry 1,780.60
+
+Descr:Bkcrd Dep Sec:CCD Trace#:061100602299059 Eed:230413 Ind
+
+1D:899000004340574 Ind Name:Mahajan Law LLC Op Trn: 1032299059Tc
+04/13 Zelle Payment From Ruchira_Saha-Sardar Bbt171649492 1,495.00
+04/13 Zelle Payment From MD Islam WfctOR674Hmce 1,000.00
+04/13 Zelle Payment From Ibrokhim Sadikov 17075620879 500.00
+04/13 Zelle Payment From Afzal Atab MntO0F8COOe3N 200.00
+04/13 Zelle Payment From AL Amin 17074462636 127.19
+04/13 Zelle Payment From Richmond Addo Danquah Ctixw3Zntodo 11.50
+04/13 Zelle Payment From Shahriar Kabir Mnth4Lktsn1X 11.50
+04/13 Zelle Payment From Sazedul Alam DfsOGbzcit91 11.50
+04/13 Zelle Payment From Ruchira_Saha-Sardar Bbt171649018 5.00
+04/14 Zelle Payment From MD Islam Cof3Yex4Xuom 2,000.00
+04/14 Zelle Payment From Mushfika Mica WfctOR6B284V 1,000.00
+04/14 Orig CO Name:Merch Svc Orig 1D:1246827607 Desc Date:230413 CO Entry 561.35
+
+Descr:Bkcrd Dep Sec:CCD Trace#:061100606222467 Eed:230414 Ind
+
+1D:899000004340574 Ind Name:Mahajan Law LLC Op Trn: 1046222467Tc
+04/14 Zelle Payment From Montashirur Rahman Bacbzsbrijg2 500.00
+04/14 Zelle Payment From Eze Amadi BacrrkkOA9G3 500.00
+04/14 Zelle Payment From Mohammedamin Ebrahim CmbOHtsixo90 500.00
+04/14 Zelle Payment From Esther Ikwani Back31110ako 500.00
+04/17 Orig CO Name:Merch Svc Orig 1D:1246827607 Desc Date:230414 CO Entry 5,485.00
+
+Descr:Bkcrd Dep Sec:CCD _ Trace#:061100606152357 Eed:230417 Ind
+
+1D:899000004340574 Ind Name:Mahajan Law LLC Op Trn: 1076152357Tc
+04/17 Zelle Payment From Oluwabusola Rosebud Onabanjo 17112782328 2,000.00
+04/17 Zelle Payment From Rafia Mallick Bacizch3Ayda 2,000.00
+04/17 Zelle Payment From Mohammad Adom Safiullah H50189543019 1,500.00
+04/17 Zelle Payment From Tahmidur Rahman Bace6larw21E 1,500.00
+04/17 Zelle Payment From Mohammad Adom Safiullah H50189580081 1,045.00
+04/17 Zelle Payment From Solomon Owusu Baccf7P9Ty97 1,000.00
+04/17 Zelle Payment From Ojo Afolabi Bacimg4K448Q 1,000.00
+04/17 Zelle Payment From Arup Mondal WfctOR6Grkcy 911.50
+04/17 Zelle Payment From Angela Isibor Bacbvleysc6U 800.00
+
+04/17 Zelle Payment From Olatunde Oladehin Bbt172193335 730.00
+
+['04/11', ' zelle payment from oluwakemi adewale cofozcd7wv8g ', '500.00']
+['04/11', ' zelle payment from dipongkor saha back493396rs ', '500.00']
+['04/11', ' zelle payment from mohammad m hasan usbnxitecabw ', '500.00']
+['04/11', ' zelle payment from sharif abdul wahab 17063620303 ', '500.00']
+['04/11', ' orig co name:merch svc orig 1d:1246827607 desc date:230410 co entry ', '200.00']
+['04/12', ' orig co name:merch svc orig 1d:1246827607 desc date:230411 co entry ', '2732.00']
+['04/12', ' zelle payment from sabia sultana 17070520859 ', '1000.00']
+['04/12', ' zelle payment from osaretin sesebor bacihaaca6uo ', '1000.00']
+['04/12', ' zelle payment from naseef mansoor baca4yajkmgq ', '1000.00']
+['04/12', ' zelle payment from risul islam 17071794511 ', '540.80']
+['04/12', ' zelle payment from arif aziz wfct0r65457f ', '500.00']
+['04/12', ' zelle payment from md halim wfctor65xplh ', '500.00']
+['04/12', ' zelle payment from tahmina rahman bacoonfgpnxx ', '6.00']
+['04/13', ' zelle payment from mayowa agbetunsin arvohtrifr11 ', '2000.00']
+['04/13', ' zelle payment from shahriar kabir mntk7fghcsrq ', '2000.00']
+['04/13', ' orig co name:merch svc orig 1d:1246827607 desc date:230412 co entry ', '1780.60']
+['04/13', ' zelle payment from ruchira saha-sardar bbt171649492 ', '1495.00']
+['04/13', ' zelle payment from md islam wfctor674hmce ', '1000.00']
+['04/13', ' zelle payment from ibrokhim sadikov 17075620879 ', '500.00']
+['04/13', ' zelle payment from afzal atab mnto0f8cooe3n ', '200.00']
+['04/13', ' zelle payment from al amin 17074462636 ', '127.19']
+['04/13', ' zelle payment from richmond addo danquah ctixw3zntodo ', '11.50']
+['04/13', ' zelle payment from shahriar kabir mnth4lktsn1x ', '11.50']
+['04/13', ' zelle payment from sazedul alam dfsogbzcit91 ', '11.50']
+['04/13', ' zelle payment from ruchira saha-sardar bbt171649018 ', '5.00']
+['04/14', ' zelle payment from md islam cof3yex4xuom ', '2000.00']
+['04/14', ' zelle payment from mushfika mica wfctor6b284v ', '1000.00']
+['04/14', ' orig co name:merch svc orig 1d:1246827607 desc date:230413 co entry ', '561.35']
+['04/14', ' zelle payment from montashirur rahman bacbzsbrijg2 ', '500.00']
+['04/14', ' zelle payment from eze amadi bacrrkkoa9g3 ', '500.00']
+['04/14', ' zelle payment from mohammedamin ebrahim cmbohtsixo90 ', '500.00']
+['04/14', ' zelle payment from esther ikwani back31110ako ', '500.00']
+['04/17', ' orig co name:merch svc orig 1d:1246827607 desc date:230414 co entry ', '5485.00']
+['04/17', ' zelle payment from oluwabusola rosebud onabanjo 17112782328 ', '2000.00']
+['04/17', ' zelle payment from rafia mallick bacizch3ayda ', '2000.00']
+['04/17', ' zelle payment from mohammad adom safiullah h50189543019 ', '1500.00']
+['04/17', ' zelle payment from tahmidur rahman bace6larw21e ', '1500.00']
+['04/17', ' zelle payment from mohammad adom safiullah h50189580081 ', '1045.00']
+['04/17', ' zelle payment from solomon owusu baccf7p9ty97 ', '1000.00']
+['04/17', ' zelle payment from ojo afolabi bacimg4k448q ', '1000.00']
+['04/17', ' zelle payment from arup mondal wfctor6grkcy ', '911.50']
+['04/17', ' zelle payment from angela isibor bacbvleysc6u ', '800.00']
+['04/17', ' zelle payment from olatunde oladehin bbt172193335 ', '730.00']
+
+PAGE 5
+
+DEPOSITS AND ADDITIONS| one?)
+
+DATE DESCRIPTION AMOUNT
+04/17 Zelle Payment From Ataur Rahman Bacmuai75Mg6 600.00
+04/17 Zelle Payment From Khan Shourav 17095838953 530.00
+04/17 Zelle Payment From Faisal Abedin PncaaQEvj02F 500.00
+04/17 Zelle Payment From Shahriar Kabir Mntzxpvq5Kb2 500.00
+04/17 Zelle Payment From Taraneh Kamyab WfctOR6Ff5Qj 500.00
+04/17 Zelle Payment From Douglas Asante WfctOR6Hky5Q 500.00
+04/17 Zelle Payment From MD Johaeir Bin Latif Bacdxlyoxbdz 485.00
+04/17 Zelle Payment From MD Hoque PncaaQEvi00C 11.50
+04/18 Orig CO Name:Merch Svc Orig 1D:1246827607 Desc Date:230417 CO Entry 2,874.55
+
+Descr:Bkcrd Dep Sec:CCD Trace#:061100605854945 Eed:230418 Ind
+
+1D:899000004340574 Ind Name:Mahajan Law LLC Op Trn: 1085854945Tc
+04/18 Zelle Payment From Rosemary Akoh WfctOR6Kg9Rn 2,000.00
+04/18 Zelle Payment From Shishir Kumar Sarker 17119921555 1,500.00
+04/18 Orig CO Name:Merch Svc Orig 1D:1246827607 Desc Date:230417 CO Entry 873.09
+
+Descr:Bkcrd Dep Sec:CCD  Trace#:061100605854946 Eed:230418 Ind
+
+1D:899000004340574 Ind Name:Mahajan Law LLC Op Trn: 1085854946Tc
+04/18 Orig CO Name:Merch Svc Orig 1D:1246827607 Desc Date:230417 CO Entry 592.70
+
+Descr:Bkcrd Dep Sec:CCD_ Trace#:061100605854947 Eed:230418 Ind
+
+1D:899000004340574 Ind Name:Mahajan Law LLC Op Trn: 1085854947Tc
+04/18 Zelle Payment From Muteb Aljasem Pncaa0Ewt53E 500.00
+04/18 Zelle Payment From Muhammad Islam 21VOHttjpc9K 500.00
+04/18 Zelle Payment From Abbasur Siddigi 17126356542 500.00
+04/18 Zelle Payment From MD Ruhul Amin 17121773044 6.00
+04/19 Orig CO Name:Merch Svc Orig 1D:1246827607 Desc Date:230418 CO Entry 1,255.05
+
+Descr:Bkcrd Dep Sec:CCD Trace#:061100603883835 Eed:230419 Ind
+
+1D:899000004340574 Ind Name:Mahajan Law LLC Op Trn: 1093883835Tc
+04/19 Zelle Payment From Mahmud Shamim 17128834515 1,000.00
+04/19 Zelle Payment From Miraz Mamun WfctOR6Mhfcc 11.50
+04/19 Zelle Payment From Esther Titus TdpOHtxime9Z 6.00
+04/20 Online Transfer From Chk ...2003 Transaction#: 17139490493 25,000.00
+04/20 Orig CO Name:Lawpay Orig 1D:1721601420 Desc Date:Apr 20 CO Entry 1,500.00
+
+Descr:Echeck Sec:CCD _ Trace#:091000011296689 Eed:230420 Ind
+
+1D:000000004600653 Ind Name:Mahajan Law LLC
+
+1Ja4Vpmilxkxf2Fnrlus Trn: 1101296689Tc
+04/20 Zelle Payment From Mahamudul Hasan WfctOR6Nhsgg 500.00
+04/20 Zelle Payment From Gazi Alam WfctOR6Pjmzw 11.50
+04/21 Zelle Payment From Abu Afzal Mohammad Shakar 17149120108 500.00
+04/21 Zelle Payment From MD Johaeir Bin Latif BaccaS2Zilhv 11.50
+04/24 Zelle Payment From Muhammad Mostafijur Rahman 17174971597 2,000.00
+04/24 Zelle Payment From Maisha Alam Cof54F4Xzxs8 1,850.00
+04/24 Orig CO Name:Merch Svc Orig 1D:1246827607 Desc Date:230421 CO Entry 1,200.00
+
+Descr:Bkcrd Dep Sec:CCD Trace#:061100600157847 Eed:230424 Ind
+
+1D:899000004340574 Ind Name:Mahajan Law LLC Op Trn: 1140157847Tc
+04/24 Zelle Payment From Mohammad Rahman PncaaOEzr66T 1,000.00
+04/24 Zelle Payment From Richmond Addo Danquah Ctiytclohdhe 1,000.00
+04/24 Zelle Payment From Adeola Aghedo Wfct0R6Z8624 730.00
+04/24 Zelle Payment From Damilola Christopher Dada 17174064948 730.00
+04/24 Zelle Payment From Mahamudul Hasan WfctOR6Zc6Lr 700.00
+04/24 Zelle Payment From Syed Taha Junaid Sarmast Baceppd848RI 500.00
+04/24 Zelle Payment From MD Hasan WfctOR6X46Y6 500.00
+04/24 Zelle Payment From Modupe Oloruntoba Bacqugy8166X 500.00
+04/24 Zelle Payment From Shafquat Aman 17161079463 11.50
+
+04/24 Zelle Payment From Mildred Akagha H50189978430 6.00
+
+
+['04/17', ' zelle payment from ataur rahman bacmuai75mg6 ', '600.00']
+['04/17', ' zelle payment from khan shourav 17095838953 ', '530.00']
+['04/17', ' zelle payment from faisal abedin pncaaqevj02f ', '500.00']
+['04/17', ' zelle payment from shahriar kabir mntzxpvq5kb2 ', '500.00']
+['04/17', ' zelle payment from taraneh kamyab wfctor6ff5qj ', '500.00']
+['04/17', ' zelle payment from douglas asante wfctor6hky5q ', '500.00']
+['04/17', ' zelle payment from md johaeir bin latif bacdxlyoxbdz ', '485.00']
+['04/17', ' zelle payment from md hoque pncaaqevi00c ', '11.50']
+['04/18', ' orig co name:merch svc orig 1d:1246827607 desc date:230417 co entry ', '2874.55']
+['04/18', ' zelle payment from rosemary akoh wfctor6kg9rn ', '2000.00']
+['04/18', ' zelle payment from shishir kumar sarker 17119921555 ', '1500.00']
+['04/18', ' orig co name:merch svc orig 1d:1246827607 desc date:230417 co entry ', '873.09']
+['04/18', ' orig co name:merch svc orig 1d:1246827607 desc date:230417 co entry ', '592.70']
+['04/18', ' zelle payment from muteb aljasem pncaa0ewt53e ', '500.00']
+['04/18', ' zelle payment from muhammad islam 21vohttjpc9k ', '500.00']
+['04/18', ' zelle payment from abbasur siddigi 17126356542 ', '500.00']
+['04/18', ' zelle payment from md ruhul amin 17121773044 ', '6.00']
+['04/19', ' orig co name:merch svc orig 1d:1246827607 desc date:230418 co entry ', '1255.05']
+['04/19', ' zelle payment from mahmud shamim 17128834515 ', '1000.00']
+['04/19', ' zelle payment from miraz mamun wfctor6mhfcc ', '11.50']
+['04/19', ' zelle payment from esther titus tdpohtxime9z ', '6.00']
+['04/20', ' online transfer from chk ...2003 transaction#: 17139490493 ', '25000.00']
+['04/20', ' orig co name:lawpay orig 1d:1721601420 desc date:apr 20 co entry ', '1500.00']
+['04/20', ' zelle payment from mahamudul hasan wfctor6nhsgg ', '500.00']
+['04/20', ' zelle payment from gazi alam wfctor6pjmzw ', '11.50']
+['04/21', ' zelle payment from abu afzal mohammad shakar 17149120108 ', '500.00']
+['04/21', ' zelle payment from md johaeir bin latif baccas2zilhv ', '11.50']
+['04/24', ' zelle payment from muhammad mostafijur rahman 17174971597 ', '2000.00']
+['04/24', ' zelle payment from maisha alam cof54f4xzxs8 ', '1850.00']
+['04/24', ' orig co name:merch svc orig 1d:1246827607 desc date:230421 co entry ', '1200.00']
+['04/24', ' zelle payment from mohammad rahman pncaaoezr66t ', '1000.00']
+['04/24', ' zelle payment from richmond addo danquah ctiytclohdhe ', '1000.00']
+['04/24', ' zelle payment from adeola aghedo wfct0r6z8624 ', '730.00']
+['04/24', ' zelle payment from damilola christopher dada 17174064948 ', '730.00']
+['04/24', ' zelle payment from mahamudul hasan wfctor6zc6lr ', '700.00']
+['04/24', ' zelle payment from syed taha junaid sarmast baceppd848ri ', '500.00']
+['04/24', ' zelle payment from md hasan wfctor6x46y6 ', '500.00']
+['04/24', ' zelle payment from modupe oloruntoba bacqugy8166x ', '500.00']
+['04/24', ' zelle payment from shafquat aman 17161079463 ', '11.50']
+['04/24', ' zelle payment from mildred akagha h50189978430 ', '6.00']
+
+
+PAGE 6
+
+DEPOSITS AND ADDITIONS|_on7“e?)
+
+DATE DESCRIPTION AMOUNT
+04/25 Orig CO Name:Merch Svc Orig 1D:1246827607 Desc Date:230424 CO Entry 3,030.00
+
+Descr:Bkcrd Dep Sec:CCD Trace#:061100609552339 Eed:230425 Ind
+
+1D:899000004340574 Ind Name:Mahajan Law LLC Op Trn: 1159552339Tc
+04/25 Zelle Payment From Ahanaf Faiaz Mozumder Back7Mjstf26 2,500.00
+04/25 Zelle Payment From Montasir Mithu Pncaa0Fby33Ww 500.00
+04/25 Zelle Payment From Mohammed Mizanur Rashid 17182788482 500.00
+04/25 Zelle Payment From MD Yeasin Arafut Bacbk8Odzé6IL 485.00
+04/25 Zelle Payment From MD Rakibul Alam Baci72D5Yuj3 411.50
+04/25 Orig CO Name:Merch Svc Orig 1D:1246827607 Desc Date:230424 CO Entry 216.85
+
+Descr:Bkcrd Dep Sec:CCD _ Trace#:061100609552340 Eed:230425 Ind
+
+1D:899000004340574 Ind Name:Mahajan Law LLC Op Trn: 1159552340Tc
+04/26 Orig CO Name:Merch Svc Orig 1D:1246827607 Desc Date:230425 CO Entry 3,532.90
+
+Descr:Bkcrd Dep Sec:CCD _ Trace#:061100604861065 Eed:230426 Ind
+
+1D:899000004340574 Ind Name:Mahajan Law LLC Op Trn: 1164861065Tc
+04/26 Orig CO Name:Lawpay Orig 1D:1721601420 Desc Date:Apr 26 CO Entry 800.00
+
+Descr:Echeck Sec:CCD _ Trace#:091000013883595 Eed:230426 Ind
+
+1D:000000004625573 Ind Name:Mahajan Law LLC
+
+Ixpnzabwc26Ax82Dp1Tc Trn: 1163883595Tc
+04/26 Zelle Payment From Khadiza Jalal WfctOR73C7Dn 500.00
+04/26 Zelle Payment From Anik Karan 17187452765 500.00
+04/27 Zelle Payment From Mohammad Kabir Cofrajm8Ui2Q 2,000.00
+04/27 Zelle Payment From Mahamudul Hasan WfctOR754Zyz 930.00
+04/27 Zelle Payment From Monir Hossain WfctOR774Mrg 500.00
+04/27 Zelle Payment From Adeola Aghedo WfctOR75HS5NY 11.50
+04/27 Zelle Payment From Syed Alam 17200295528 5.00
+04/27 Zelle Payment From Sume Sedan LLC WfctOR77554C 5.00
+04/28 Zelle Payment From Oluwakemi Adewale Cofw2Rbzznuo 2,500.00
+04/28 Zelle Payment From Shamsul Arefeen 17204407642 2,000.00
+04/28 Zelle Payment From Y.S. Mantri_ & Associates LLC 17211052844 1,740.00
+04/28 Zelle Payment From Maisha Tarannum 17209573846 500.00
+04/28 Zelle Payment From MD Iqbal WfctOR79Gvpw 500.00
+04/28 Zelle Payment From Amir Hossain WfctOR77Gyw9 200,00
+04/28 Orig CO Name:Merch Svc Orig 1D:1246827607 Desc Date:230427 CO Entry 14.00
+
+Descr:Bkcrd Dep Sec:CCD_ Trace#:061100606251956 Eed:230428 Ind
+
+1D:899000004340574 Ind Name:Mahajan Law LLC Op Trn: 1186251956Tc
+04/28 Zelle Payment From Mohammad Rahaman PncaaQFdb76M 11.50
+04/28 Zelle Payment From Maisha Tarannum 17210174632 11.50
+04/28 Zelle Payment From Nur Mohammad Ranak 17206554228 6.00
+Total Deposits and Additions $217,765.09
+ATM & DEBIT CARD WITHDRAWALS
+DATE DESCRIPTION AMOUNT
+04/03 Card Purchase 03/31 Courts/Usdc-DC 202-354-3182 DC Card 1018 $402.00
+04/03 Recurring Card Purchase 04/01 Google *Gsuite_Rajul Cc@Google.Com CA Card 1018 439.90
+04/05 Recurring Card Purchase 04/05 Anytime Mailbox Httpswww.Anyt NV Card 1018 12.78
+04/10 | Recurring Card Purchase 04/08 Docketwise Software Httpswww.Dock PA Card 1018 4,925.40
+04/12 | Card Purchase 04/11 Courts/Usdc-DC 202-354-3182 DC Card 1018 402.00
+04/19 Card Purchase 04/18 Zadarma Burgas Card 1018 86.00
+04/20 Recurring Card Purchase 04/20 Calendly Httpscalendly GA Card 1018 15.90
+04/26 Card Purchase 04/25 Zadarma Burgas Card 1018 86.00
+04/28 Recurring Card Purchase 04/28 Optimum 7712 877-794-2724 NY Card 1018 104.10
+
+Total ATM & Debit Card Withdrawals $6,474.08
+
+['04/25', ' orig co name:merch svc orig 1d:1246827607 desc date:230424 co entry ', '3030.00']
+['04/25', ' zelle payment from ahanaf faiaz mozumder back7mjstf26 ', '2500.00']
+['04/25', ' zelle payment from montasir mithu pncaa0fby33ww ', '500.00']
+['04/25', ' zelle payment from mohammed mizanur rashid 17182788482 ', '500.00']
+['04/25', ' zelle payment from md yeasin arafut bacbk8odzé6il ', '485.00']
+['04/25', ' zelle payment from md rakibul alam baci72d5yuj3 ', '411.50']
+['04/25', ' orig co name:merch svc orig 1d:1246827607 desc date:230424 co entry ', '216.85']
+['04/26', ' orig co name:merch svc orig 1d:1246827607 desc date:230425 co entry ', '3532.90']
+['04/26', ' orig co name:lawpay orig 1d:1721601420 desc date:apr 26 co entry ', '800.00']
+['04/26', ' zelle payment from khadiza jalal wfctor73c7dn ', '500.00']
+['04/26', ' zelle payment from anik karan 17187452765 ', '500.00']
+['04/27', ' zelle payment from mohammad kabir cofrajm8ui2q ', '2000.00']
+['04/27', ' zelle payment from mahamudul hasan wfctor754zyz ', '930.00']
+['04/27', ' zelle payment from monir hossain wfctor774mrg ', '500.00']
+['04/27', ' zelle payment from adeola aghedo wfctor75hs5ny ', '11.50']
+['04/27', ' zelle payment from syed alam 17200295528 ', '5.00']
+['04/27', ' zelle payment from sume sedan llc wfctor77554c ', '5.00']
+['04/28', ' zelle payment from oluwakemi adewale cofw2rbzznuo ', '2500.00']
+['04/28', ' zelle payment from shamsul arefeen 17204407642 ', '2000.00']
+['04/28', ' zelle payment from y.s. mantri  & associates llc 17211052844 ', '1740.00']
+['04/28', ' zelle payment from maisha tarannum 17209573846 ', '500.00']
+['04/28', ' zelle payment from md iqbal wfctor79gvpw ', '500.00']
+['04/28', ' zelle payment from amir hossain wfctor77gyw9 ', '200.00']
+['04/28', ' orig co name:merch svc orig 1d:1246827607 desc date:230427 co entry ', '14.00']
+['04/28', ' zelle payment from mohammad rahaman pncaaqfdb76m ', '11.50']
+['04/28', ' zelle payment from maisha tarannum 17210174632 ', '11.50']
+['04/28', ' zelle payment from nur mohammad ranak 17206554228 ', '6.00']
+['04/03', ' card purchase 03/31 courts/usdc-dc 202-354-3182 dc card 1018 $', '402.00']
+['04/03', ' recurring card purchase 04/01 google *gsuite rajul cc@google.com ca card 1018 ', '439.90']
+['04/05', ' recurring card purchase  anytime mailbox httpswww.anyt nv card 1018 ', '12.78']
+['04/10', ' | recurring card purchase 04/08 docketwise software httpswww.dock pa card 1018 ', '4925.40']
+['04/12', ' | card purchase 04/11 courts/usdc-dc 202-354-3182 dc card 1018 ', '402.00']
+['04/19', ' card purchase 04/18 zadarma burgas card 1018 ', '86.00']
+['04/20', ' recurring card purchase  calendly httpscalendly ga card 1018 ', '15.90']
+['04/26', ' card purchase 04/25 zadarma burgas card 1018 ', '86.00']
+['04/28', ' recurring card purchase  optimum 7712 877-794-2724 ny card 1018 ', '104.10']
+
+
+PAGE 7
+
+ATM & DEBIT CARD SUMMARY
+
+Timothy Raju Mahajan Card 1018
+
+Total ATM Withdrawals & Debits $0.00
+Total Card Purchases $6,474.08
+Total Card Deposits & Credits $0.00
+ATM & Debit Card Totals
+Total ATM Withdrawals & Debits $0.00
+Total Card Purchases $6,474.08
+Total Card Deposits & Credits $0.00
+ELECTRONIC WITHDRAWALS|
+DATE DESCRIPTION AMOUNT
+04/03 Orig CO Name:Aetna Orig 1ID:0066033492 Desc Date: CO Entry Descr:Sgr $663.34
+Sec:CCD _ Trace#:028000088442604 Eed:230403 Ind 1D:1154274181001 Ind
+Name:Mahajan Law LLC 1154274181001J056066500000043832429 Trn:
+0938442604Tc
+04/03 Orig CO Name:Merch Svc Orig 1D:1246827607 Desc Date:230331 CO Entry 809.34
+Descr:Bkcrd Feessec:CCD  Trace#:061100602244628 Eed:230403 Ind
+1D:899000004340574 Ind Name:Mahajan Law LLC Op Trn: 0932244628Tc
+04/03 Zelle Payment To Noman Taher DC Office Jpm999Uvaqqm 455.00
+04/03 04/03 Online Transfer To Chk ...2003 Transaction#: 16995656757 20,000.00
+04/03 Zelle Payment To Zunaid Eb3 16999689091 1,869.00
+04/04 Zelle Payment To Noman Taher DC Office Jpm999UwSH9F 598.00
+04/04 Zelle Payment To Noman Taher DC Office Jpm999Uwr5Dm 2,500.00
+04/05 Orig CO Name:Hancock Whitney Orig 1D:8065503681 Desc Date: CO Ent 0.55
+
+ry
+Descr:Acctverifysec:Web Trace#:065503685019672 Eed:230405 Ind ID:Sharat Chandra
+Ind Name:Sharat Chandra Barman Trn: 0955019672Tc
+04/05 _ 04/05 Online Transfer To Mma ...9933 Transaction#: 17010505407 20,000.00
+04/06 Orig CO Name:Paychex Inc. Orig 1D:1161124166 Desc Date: CO Entry 30,024.06
+
+Descr:Payroll Sec:CCD Trace#:091000019223549 Eed:230406 Ind ID:01797400010710X
+Ind Name:Mahajan Law LLC Trn: 0969223549Tc
+
+04/06 Orig CO Name:Paychex Eib Orig 1ID:3161124166 Desc Date:230406 CO Entry 1,350.70
+Descr:Invoice Sec:CCD  Trace#:021000027700979 Eed:230406 Ind ID:X01794300000395
+
+Ind Name:Mahajan Law LLC Trn: 0967700979Tc
+
+04/06 Zelle Payment To Noman Taher DC Office Jpm999Uzetvw 5,000.00
+04/07 Orig CO Name:Paychex Tps Orig 1D:1161124166 Desc Date:040523 CO Entry 9,887.31
+
+Descr:Taxes Sec:CCD_ Trace#:091000012019724 Eed:230407 Ind 1D:01797800025652x
+Ind Name:Mahajan Law LLC
+37182 Trn: 0972019724Tc
+04/07 Orig CO Name:Paychex Eib Orig 1ID:3161124166 Desc Date:230407 CO Entry 2,832.00
+Descr:Invoice Sec:CCD  Trace#:021000020326000 Eed:230407 Ind ID: 0173200000261
+
+Ind Name:Mahajan Law LLC Trn: 0970326000Tc
+
+04/07 __Zelle Payment To Noman Taher DC Office Jpm999V0X31D 4,600.00
+04/10 Orig CO Name:Wells Fargo Auto Orig 1D:0122287170 Desc Date:230409 CO Entry 1,016.80
+
+Descr:Draft Sec:PPD Trace#:091000011486548 Eed:230410 Ind ID:
+Ind Name:Timothy,R,Mahajan Tr: 1001486548Tc
+
+04/10 Zelle Payment To Noman Taher DC Office Jpm999V5Ecr5 5,000.00
+04/11 Zelle Payment To Shamsun Nahar Jpm999V6Qkuw 500.00
+04/11 Zelle Payment To Noman Taher DC Office Jpm999V6S93M 4,500.00
+04/12 Zelle Payment To Noman Taher DC Office Jpm999V8160N 2,635.00
+04/12 Zelle Payment To Sayeda Sathi Jom999V81731 1,200.00
+04/17 04/17 Online Transfer To Chk ...2003 Transaction#: 17114424393 20,000.00
+04/17 Zelle Payment To Helen H. Partlow Jpm999Vg19Bt 100.00
+
+04/18 04/17 Payment To Chase Card Ending IN 5038 11,437.86
+
+
+['04/03', ' orig co name:aetna orig 1id:0066033492 desc date: co entry descr:sgr $', '663.34']
+['04/03', ' orig co name:merch svc orig 1d:1246827607 desc date:230331 co entry ', '809.34']
+['04/03', ' zelle payment to noman taher dc office jpm999uvaqqm ', '455.00']
+['04/03', '  online transfer to chk ...2003 transaction#: 16995656757 ', '20000.00']
+['04/03', ' zelle payment to zunaid eb3 16999689091 ', '1869.00']
+['04/04', ' zelle payment to noman taher dc office jpm999uwsh9f ', '598.00']
+['04/04', ' zelle payment to noman taher dc office jpm999uwr5dm ', '2500.00']
+['04/05', ' orig co name:hancock whitney orig 1d:8065503681 desc date: co ent ', '0.55']
+['04/05', '    online transfer to mma ...9933 transaction#: 17010505407 ', '20000.00']
+['04/06', ' orig co name:paychex inc. orig 1d:1161124166 desc date: co entry ', '30024.06']
+['04/06', ' orig co name:paychex eib orig 1id:3161124166 desc date:230406 co entry ', '1350.70']
+['04/06', ' zelle payment to noman taher dc office jpm999uzetvw ', '5000.00']
+['04/07', ' orig co name:paychex tps orig 1d:1161124166 desc date:040523 co entry ', '9887.31']
+['04/07', ' orig co name:paychex eib orig 1id:3161124166 desc date:230407 co entry ', '2832.00']
+['04/07', '   zelle payment to noman taher dc office jpm999v0x31d ', '4600.00']
+['04/10', ' orig co name:wells fargo auto orig 1d:0122287170 desc date:230409 co entry ', '1016.80']
+['04/10', ' zelle payment to noman taher dc office jpm999v5ecr5 ', '5000.00']
+['04/11', ' zelle payment to shamsun nahar jpm999v6qkuw ', '500.00']
+['04/11', ' zelle payment to noman taher dc office jpm999v6s93m ', '4500.00']
+['04/12', ' zelle payment to noman taher dc office jpm999v8160n ', '2635.00']
+['04/12', ' zelle payment to sayeda sathi jom999v81731 ', '1200.00']
+['04/17', '  online transfer to chk ...2003 transaction#: 17114424393 ', '20000.00']
+['04/17', ' zelle payment to helen h. partlow jpm999vg19bt ', '100.00']
+['04/18', ' 04/17 payment to chase card ending in 5038 ', '11437.86']
+
+
+PAGE 8
+
+ELECTRONIC WITHDRAWALS} continued)
+
+DATE DESCRIPTION AMOUNT
+04/19 Orig CO Name:IV Filing Fee Orig 1D:1900000104 Desc Date:230418 CO Entry Descr:Nve 1,035.00
+IV Feesec:CCD  Trace#:041036043056462 Eed:230419 Ind ID:0000 Ind
+Name:Mahajan Law LLC ACH
+Transaction Trn: 1093056462Tc
+04/20 Orig CO Name:Paychex Inc. Orig 1D:1161124166 Desc Date: CO Entry 28,706.27
+
+Descr:Payroll Sec:CCD Trace#:021000021270716 Eed:230420 Ind 1D:01976900007641X
+
+Ind Name:Mahajan Law LLC Tm: 1101270716Tc
+
+04/20 Orig CO Name:Paychex Eib Orig 1D:3161124166 Desc Date:230420 CO Entry 1,064.25
+Descr:Invoice Sec:CCD  Trace#:021000021323438 Eed:230420 Ind ID:X01974900002285
+Ind Name:Mahajan Law LLC Trn: 1101323438Tc
+
+04/20 Orig CO Name:Affinipay Orig 1D:4721601420 Desc Date:Apr 20 CO Entry 11.20
+Descr:Echeck Sec:CCD _ Trace#:091000011300359 Eed:230420 Ind ID:000000004592897
+Ind Name:Mahajan Law LLC
+
+Tyfr8S6Klwmem42Quphn Tr: 1101300359Tc
+
+04/20 Orig CO Name:irs Orig 1D:3387702000 Desc Date:041823 CO Entry 3,000.00
+Descr:Usataxpymtsec:PPD Trace#:061036011862111 Eed:230420 Ind ID:
+Ind Name:Timothy R Mahajan Trn: 1101862111Tc
+
+04/20  Zelle Payment To Noman Taher DC Office Jpm999Vjh4 Yj 455.00
+04/20 Zelle Payment To Zunaid Eb3 17137970599 1,697.80
+04/21 Orig CO Name:Paychex Tps Orig 1D:1161124166 Desc Date:041923 CO Entry 9,565.05
+
+Descr:Taxes Sec:CCD  Trace#:021000029488045 Eed:230421 Ind 1D:01975000033044X
+Ind Name:Mahajan Law LLC
+37230 Trn: 1119488045Tc
+04/24 Orig CO Name:Paychex Eib Orig 1D:3161124166 Desc Date:230424 CO Entry 16.00
+Descr:Invoice Sec:CCD Trace#:021000023287183 Eed:230424 Ind ID:X02013300000022
+Ind Name:Mahajan Law LLC Trn: 1143287183Tc
+
+04/26 ___Zelle Payment To Noman Taher DC Office Jpm999Vs52Ai 2,100.00
+Total Electronic Withdrawals $194,629.53
+OTHER WITHDRAWALS
+
+DATE DESCRIPTION AMOUNT
+
+04/19 04/19 Withdrawal $5,455.00
+Total Other Withdrawals $5,455.00
+
+['04/19', ' orig co name:iv filing fee orig 1d:1900000104 desc date:230418 co entry descr:nve ', '1035.00']
+['04/20', ' orig co name:paychex inc. orig 1d:1161124166 desc date: co entry ', '28706.27']
+['04/20', ' orig co name:paychex eib orig 1d:3161124166 desc date:230420 co entry ', '1064.25']
+['04/20', ' orig co name:affinipay orig 1d:4721601420 desc date:apr 20 co entry ', '11.20']
+['04/20', ' orig co name:irs orig 1d:3387702000 desc date:041823 co entry ', '3000.00']
+['04/20', '  zelle payment to noman taher dc office jpm999vjh4 yj ', '455.00']
+['04/20', ' zelle payment to zunaid eb3 17137970599 ', '1697.80']
+['04/21', ' orig co name:paychex tps orig 1d:1161124166 desc date:041923 co entry ', '9565.05']
+['04/24', ' orig co name:paychex eib orig 1d:3161124166 desc date:230424 co entry ', '16.00']
+['04/26', '    zelle payment to noman taher dc office jpm999vs52ai ', '2100.00']
+['04/19', '  withdrawal $', '5455.00']
