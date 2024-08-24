@@ -698,3 +698,7 @@ pc_parts = [
     'Cooler Master MasterBox Q300L', 'Corsair Carbide Series 275R', 'Be Quiet! Pure Base 500DX', 'ASUS ROG Strix B550-E Gaming', 'MSI MPG Z490 Gaming Carbon WiFi',
     'Gigabyte X570 AORUS XTREME', 'ASRock X570 Taichi', 'Corsair Vengeance LPX DDR4-2400 32GB', 'G.SKILL Ripjaws V DDR4-3600 32GB', 'Kingston HyperX Fury DDR4-3200 32GB'
 ]
+
+products = []
+
+products = foods + cloths + electroics + pc_parts + phone + cars + grocery
