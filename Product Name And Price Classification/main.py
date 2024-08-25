@@ -1,6 +1,7 @@
 import random
 import pandas as pd
 from data import products
+import re
 
 # Define data categories and currency signs
 categories = ['A', 'E', 'F', 'H', 'N', '£', '—']
@@ -36,6 +37,8 @@ def generate_product_line(max_entries):
         else:
             price = round(random.uniform(0.1, 200.99), 2)
         
+        priceWOS = f"{price:,.2f}"
+
         # Decide whether to use a currency sign
         use_currency_sign = random.choice([True, False])
         if use_currency_sign:
@@ -65,10 +68,38 @@ def generate_product_line(max_entries):
         
         if use_format_quantity:
             line_format = random.choice(formats)
-            entries.append([line_format, product, price])
+            productI = findTokenLocation(line_format, product)
+            priceI = findTokenLocation(line_format, priceWOS)
+
+            if use_currency_sign:
+                currency_signI = findTokenLocation(line_format, currency_sign)
+                tokens = (productI, priceI, currency_signI)
+            else:
+                tokens = (productI, priceI)
+
+            entries.append([line_format, tokens])
         else:
             line_format = random.choice(formats_quantity)
-            entries.append([line_format, product, quantity, price])
+
+            line = line_format
+            productI = findTokenLocation(line_format, product)
+
+            rlp = ""
+            for i in range(len(product)):
+                rlp += "_"
+            
+            line = line.replace(product, rlp)
+
+            quantityI = findTokenLocation(line_format, str(quantity))
+            priceI = findTokenLocation(line_format, priceWOS)            
+
+            if use_currency_sign:
+                currency_signI = findTokenLocation(line, currency_sign)
+                tokens = (productI, quantityI, priceI, currency_signI)
+            else:
+                tokens = (productI, quantityI, priceI)
+
+            entries.append([line_format, tokens])
 
     return entries
 
@@ -87,6 +118,8 @@ def generate_receipt_line(max_entries):
         else:
             price = round(random.uniform(0.1, 200.99), 2)
         
+        priceWOS = f"{price:,.2f}"
+
         # Decide whether to use a currency sign
         use_currency_sign = random.choice([True, False])
         if use_currency_sign:
@@ -122,32 +155,54 @@ def generate_receipt_line(max_entries):
             
             if is_total_tax:
                 line_format = random.choice(total_tax_formats)
-                entries.append([line_format, f"total {tax_type}", price])
+
+                tTaxI = findTokenLocation(line_format, f"total {tax_type}")
+                priceI = findTokenLocation(line_format, priceWOS)
+                tokens = (tTaxI, priceI)
+
+                entries.append([line_format, tokens])
             else:
                 line_format = random.choice(tax_formats)
+
+                tTaxI = findTokenLocation(line_format, tax_type)
+                priceI = findTokenLocation(line_format, priceWOS)
+
                 if line_format.find(f"{tax_rate}") != -1:
-                    entries.append([line_format,f"{tax_type}", tax_rate, price])
+                    taxRateI = findTokenLocation(line_format, str(tax_rate))
+                    tokens = (tTaxI, taxRateI, priceI)
+                    entries.append([line_format, tokens])
                 else:
-                    entries.append([line_format,f"{tax_type}", price])
+                    tokens = (tTaxI, priceI)
+                    entries.append([line_format, tokens])
         else:
             # Generate other line formats
             tag = random.choice(tags)
 
             line_format = f"{tag} {priceS}"
-            if tag == "st" or tag == "sub-total":
-                tag = "subtotal"
-            if tag == "t":
-                tag = "total"
+            
+            tagI = findTokenLocation(line_format, tag)
+            priceI = findTokenLocation(line_format, priceWOS)
+            tokens = (tagI, priceI)
 
-            entries.append([line_format, tag, price])
+            entries.append([line_format, tokens])
 
     return entries
 
-# Example usage: Generate 10 product line entries
-entries_pl = generate_product_line(100000)
-entries_rl = generate_receipt_line(100000)
+def findTokenLocation(text : str, skw : str):
+    
+    start_idx = text.find(skw)
+    end_idx = start_idx + len(skw) - 1
+    return (start_idx, end_idx)
 
-entries = entries_pl + entries_rl
+# Example usage: Generate 10 product line entries
+
+maxR = 200000
+entries = []
+for i in range(maxR):
+    entries_pl = generate_product_line(1)
+    entries_rl = generate_receipt_line(1)
+    entries += entries_pl
+    entries += entries_rl
 
 # Convert to DataFrame and save to CSV
 df = pd.DataFrame(entries)
