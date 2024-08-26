@@ -5,6 +5,7 @@ from tensorflow.keras.layers import Input, Embedding, LSTM, Dense, Attention, Co
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.preprocessing.text import Tokenizer
 from sklearn.model_selection import train_test_split
+import pickle
 
 def preprocess_data(file_path):
     df = pd.read_csv(file_path)
@@ -83,55 +84,83 @@ def predict_sequence(model, input_seq, max_output_length, tokenizer):
     
     return predicted_text
 
+def save_model_and_metadata(model, model_file, encoder_tokenizer, decoder_tokenizer, max_input_length, max_output_length):
+    # Save model
+    model.save(model_file)
+    
+    # Save tokenizers and max lengths
+    with open('encoder_tokenizer.pkl', 'wb') as f:
+        pickle.dump(encoder_tokenizer, f)
+    with open('decoder_tokenizer.pkl', 'wb') as f:
+        pickle.dump(decoder_tokenizer, f)
+    with open('max_lengths.pkl', 'wb') as f:
+        pickle.dump({'max_input_length': max_input_length, 'max_output_length': max_output_length}, f)
+    
+    print(f"Model and metadata saved to {model_file}, encoder_tokenizer.pkl, decoder_tokenizer.pkl, and max_lengths.pkl")
 
-def save_model(model, file_path):
-    model.save(file_path)
-    print(f"Model saved to {file_path}")
-
-def load_existing_model(file_path):
-    model = load_model(file_path)
-    print(f"Model loaded from {file_path}")
-    return model
+def load_model_and_metadata(model_file):
+    # Load model
+    model = load_model(model_file)
+    
+    # Load tokenizers and max lengths
+    with open('encoder_tokenizer.pkl', 'rb') as f:
+        encoder_tokenizer = pickle.load(f)
+    with open('decoder_tokenizer.pkl', 'rb') as f:
+        decoder_tokenizer = pickle.load(f)
+    with open('max_lengths.pkl', 'rb') as f:
+        lengths = pickle.load(f)
+        max_input_length = lengths['max_input_length']
+        max_output_length = lengths['max_output_length']
+    
+    print(f"Model and metadata loaded from {model_file}, encoder_tokenizer.pkl, decoder_tokenizer.pkl, and max_lengths.pkl")
+    
+    return model, encoder_tokenizer, decoder_tokenizer, max_input_length, max_output_length
 
 if __name__ == "__main__":
-    # File path to your CSV file
-    file_path = './receipt-line-dataset.csv'
+    train_flag = False  # Set to False if you want to load a pre-trained model and skip training
     
-    # Load and preprocess data
-    inputs, outputs = preprocess_data(file_path)
-    
-    # Tokenize and encode data
-    max_input_length = max(len(seq.split()) for seq in inputs)
-    max_output_length = max(len(seq) for seq in outputs)
-    
-    encoder_input_data, encoder_tokenizer = tokenize_and_encode(inputs, max_input_length)
-    decoder_output_data, decoder_tokenizer = tokenize_and_encode(outputs, max_output_length)
-    
-    # Prepare decoder input data
-    decoder_input_data = np.zeros_like(decoder_output_data)
-    
-    # Split data into training and testing
-    encoder_input_train, encoder_input_test, decoder_input_train, decoder_input_test, decoder_output_train, decoder_output_test = train_test_split(
-        encoder_input_data, decoder_input_data, decoder_output_data, test_size=0.2, random_state=42
-    )
-    
-    # Create and train the model
-    # input_vocab_size = len(encoder_tokenizer.word_index) + 1
-    # output_vocab_size = len(decoder_tokenizer.word_index) + 1
-    
-    # model = create_seq2seq_model(input_vocab_size, output_vocab_size, max_input_length, max_output_length)
-    # train_model(model, encoder_input_train, decoder_input_train, decoder_output_train, epochs=10)
-    
-    # # Save the model
-    # save_model(model, 'seq2seq_model.h5')
-    
-    model2 =load_model('seq2seq_model.h5')
-    # To load an existing model, uncomment the following line:
-    # model = load_existing_model('seq2seq_model.h5')
+    if train_flag:
+        # File path to your CSV file
+        file_path = './receipt-line-dataset.csv'
+        
+        # Load and preprocess data
+        inputs, outputs = preprocess_data(file_path)
+        
+        # Tokenize and encode data
+        max_input_length = max(len(seq.split()) for seq in inputs)
+        max_output_length = max(len(seq) for seq in outputs)
+        
+        encoder_input_data, encoder_tokenizer = tokenize_and_encode(inputs, max_input_length)
+        decoder_output_data, decoder_tokenizer = tokenize_and_encode(outputs, max_output_length)
+        
+        # Prepare decoder input data
+        decoder_input_data = np.zeros_like(decoder_output_data)
+        
+        # Split data into training and testing
+        encoder_input_train, encoder_input_test, decoder_input_train, decoder_input_test, decoder_output_train, decoder_output_test = train_test_split(
+            encoder_input_data, decoder_input_data, decoder_output_data, test_size=0.2, random_state=42
+        )
+        
+        # Create and train the model
+        input_vocab_size = len(encoder_tokenizer.word_index) + 1
+        output_vocab_size = len(decoder_tokenizer.word_index) + 1
+        
+        model = create_seq2seq_model(input_vocab_size, output_vocab_size, max_input_length, max_output_length)
+        train_model(model, encoder_input_train, decoder_input_train, decoder_output_train, epochs=10)
+        #model = load_model('seq2seq_model.h5')
+        # Save the model and metadata
+        save_model_and_metadata(model, 'seq2seq_model.h5', encoder_tokenizer, decoder_tokenizer, max_input_length, max_output_length)
+    else:
+        # Load the pre-trained model and metadata
+        model, encoder_tokenizer, decoder_tokenizer, max_input_length, max_output_length = load_model_and_metadata('seq2seq_model.h5')
     
     # Predict a new sequence
-    input_text = "Smart Light Switch Charging Station 926781 3 89.27"
-    input_seq = encoder_tokenizer.texts_to_sequences([input_text])[0]
-    predicted_text = predict_sequence(model2, input_seq, max_output_length, decoder_tokenizer)
-    
-    print(f"Predicted Output: {predicted_text}")
+    while True:
+        input_text = input("Line: ")
+        if input_text == "q":
+            break
+        print(f"Input: {input_text}")
+        input_seq = encoder_tokenizer.texts_to_sequences([input_text])[0]
+        predicted_text = predict_sequence(model, input_seq, max_output_length, decoder_tokenizer)
+        
+        print(f"Predicted Output: {predicted_text}")

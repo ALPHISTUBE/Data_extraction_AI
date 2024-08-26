@@ -104,7 +104,7 @@ def generate_product_line(max_entries):
     return entries
 
 # Tags for other line formats
-tags = ['Total', 'subtotal', "sub-total", "st", "t", 'discount', 'cash', 'debit', 'credit', 'visa', 'master', 'change']
+tags = ['Total', 'subtotal', "sub-total", "st", "t", 'discount', 'cash', 'debit', 'credit', 'visa', 'master', 'change', "mcard", "paypal"]
 
 # Function to generate receipt lines with specific tags
 def generate_receipt_line(max_entries):
