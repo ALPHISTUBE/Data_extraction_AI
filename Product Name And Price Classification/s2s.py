@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-from tensorflow.keras.models import Model
+from tensorflow.keras.models import Model, load_model
 from tensorflow.keras.layers import Input, Embedding, LSTM, Dense, Attention, Concatenate
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.preprocessing.text import Tokenizer
@@ -66,15 +66,32 @@ def train_model(model, encoder_input_data, decoder_input_data, decoder_target_da
     )
 
 def predict_sequence(model, input_seq, max_output_length, tokenizer):
-    input_seq = pad_sequences([input_seq], maxlen=input_seq.shape[1], padding='post')
+    # Pad the input sequence to the required length
+    input_seq = pad_sequences([input_seq], maxlen=max_input_length, padding='post')
     
+    # Initialize the decoder input with zeros
     decoder_input = np.zeros((1, max_output_length))
+    
+    # Get the predictions
     prediction = model.predict([input_seq, decoder_input])
     
+    # Get the index of the most probable token at each time step
     predicted_indices = np.argmax(prediction, axis=-1)[0]
     
+    # Convert the indices back to text
     predicted_text = tokenizer.sequences_to_texts([predicted_indices])[0]
+    
     return predicted_text
+
+
+def save_model(model, file_path):
+    model.save(file_path)
+    print(f"Model saved to {file_path}")
+
+def load_existing_model(file_path):
+    model = load_model(file_path)
+    print(f"Model loaded from {file_path}")
+    return model
 
 if __name__ == "__main__":
     # File path to your CSV file
@@ -99,15 +116,22 @@ if __name__ == "__main__":
     )
     
     # Create and train the model
-    input_vocab_size = len(encoder_tokenizer.word_index) + 1
-    output_vocab_size = len(decoder_tokenizer.word_index) + 1
+    # input_vocab_size = len(encoder_tokenizer.word_index) + 1
+    # output_vocab_size = len(decoder_tokenizer.word_index) + 1
     
-    model = create_seq2seq_model(input_vocab_size, output_vocab_size, max_input_length, max_output_length)
-    train_model(model, encoder_input_train, decoder_input_train, decoder_output_train, epochs=10)
+    # model = create_seq2seq_model(input_vocab_size, output_vocab_size, max_input_length, max_output_length)
+    # train_model(model, encoder_input_train, decoder_input_train, decoder_output_train, epochs=10)
+    
+    # # Save the model
+    # save_model(model, 'seq2seq_model.h5')
+    
+    model2 =load_model('seq2seq_model.h5')
+    # To load an existing model, uncomment the following line:
+    # model = load_existing_model('seq2seq_model.h5')
     
     # Predict a new sequence
     input_text = "Smart Light Switch Charging Station 926781 3 89.27"
     input_seq = encoder_tokenizer.texts_to_sequences([input_text])[0]
-    predicted_text = predict_sequence(model, input_seq, max_output_length, decoder_tokenizer)
+    predicted_text = predict_sequence(model2, input_seq, max_output_length, decoder_tokenizer)
     
     print(f"Predicted Output: {predicted_text}")
