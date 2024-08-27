@@ -1,0 +1,1050 @@
+Transaction Message,Company Name,Categories
+AMZN MKTP US*12345 $29.99 08/24,Amazon,Retail
+AMAZON.COM*BOOK $15.99 08/24,Amazon,Retail
+APPLE.COM/BILL $9.99 08/24,Apple/iTunes,Subscription
+ITUNES.COM $12.99 08/24,Apple/iTunes,Subscription
+NETFLIX.COM $15.49 08/24,Netflix,Subscription
+NETFLIX SUB $17.99 08/24,Netflix,Subscription
+UBER TRIP $12.45 08/24,Uber,Transportation
+UBER EATS $25.00 08/24,Uber,Food Delivery
+WALMART 1234 $45.67 08/24,Walmart,Retail
+WALMART GROC 5678 $75.89 08/24,Walmart,Retail
+SPOTIFY USA $9.99 08/24,Spotify,Subscription
+SPOTIFY PREMIUM $14.99 08/24,Spotify,Subscription
+PAYPAL *MERCHANT $50.00 08/24,PayPal,Payment
+PAYPAL *EBAY $100.00 08/24,PayPal,Payment
+GOOGLE *SERVICE $10.99 08/24,Google Play,Subscription
+GOOGLE *SUBSCRIPTION $5.99 08/24,Google Play,Subscription
+STARBUCKS $5.50 08/24,Starbucks,Food & Beverage
+STARBUCKS COFFEE $8.75 08/24,Starbucks,Food & Beverage
+MCDONALD'S 1234 $8.25 08/24,McDonald's,Food & Beverage
+MCDONALD'S MEAL $12.49 08/24,McDonald's,Food & Beverage
+TARGET T-1234 $120.00 08/24,Target,Retail
+TARGET STORE 5678 $85.50 08/24,Target,Retail
+LYFT RIDE $15.00 08/24,Lyft,Transportation
+LYFT FARE $22.30 08/24,Lyft,Transportation
+ADOBE *SUBSCRIPTION $52.99 08/24,Adobe,Subscription
+ADOBE CREATIVE $79.99 08/24,Adobe,Subscription
+FACEBOOK ADS $100.00 08/24,Facebook,Advertising
+FACEBOOK PAY $20.00 08/24,Facebook,Payment
+MSFT *BILLING $99.99 08/24,Microsoft,Subscription
+MICROSOFT 365 $69.99 08/24,Microsoft,Subscription
+HULU.COM $11.99 08/24,Hulu,Subscription
+HULU STREAMING $13.99 08/24,Hulu,Subscription
+DISNEYPLUS $7.99 08/24,Disney+,Subscription
+DISNEY+ SUBSCRIPTION $12.99 08/24,Disney+,Subscription
+AIRBNB *RESERVATION $150.00 08/24,Airbnb,Travel & Leisure
+AIRBNB BOOKING $200.00 08/24,Airbnb,Travel & Leisure
+DOORDASH 1234 $25.00 08/24,DoorDash,Food Delivery
+DOORDASH DELIVERY $35.00 08/24,DoorDash,Food Delivery
+BESTBUY 1234 $220.00 08/24,Best Buy,Retail
+BESTBUY ELECTRONICS $340.00 08/24,Best Buy,Electronics
+CVS 1234 $15.67 08/24,CVS Pharmacy,Pharmacy
+CVS PHARMACY $30.89 08/24,CVS Pharmacy,Pharmacy
+VENMO *PAYMENT $30.00 08/24,Venmo,Payment
+VENMO *TRANSFER $45.00 08/24,Venmo,Payment
+HOMEDEPOT 1234 $89.99 08/24,Home Depot,Retail
+HOMEDEPOT TOOLS $150.00 08/24,Home Depot,Home Improvement
+DELTA AIR 1234 $350.00 08/24,Delta Airlines,Travel & Leisure
+DELTA TICKET $450.00 08/24,Delta Airlines,Travel & Leisure
+SWA 1234 $290.00 08/24,Southwest Airlines,Travel & Leisure
+SWA AIRFARE $320.00 08/24,Southwest Airlines,Travel & Leisure
+UNITED 1234 $400.00 08/24,United Airlines,Travel & Leisure
+UNITED FLIGHT $500.00 08/24,United Airlines,Travel & Leisure
+AT&T *BILLPAY $120.00 08/24,AT&T,Utilities
+AT&T WIRELESS $140.00 08/24,AT&T,Utilities
+VERIZON *BILLPAY $130.00 08/24,Verizon,Utilities
+VERIZON WIRELESS $150.00 08/24,Verizon,Utilities
+T-MOBILE *BILLPAY $110.00 08/24,T-Mobile,Utilities
+T-MOBILE PLAN $125.00 08/24,T-Mobile,Utilities
+COMCAST *BILL $99.99 08/24,Comcast,Utilities
+COMCAST INTERNET $129.99 08/24,Comcast,Utilities
+SPECTRUM *BILL $85.00 08/24,Spectrum,Utilities
+SPECTRUM CABLE $105.00 08/24,Spectrum,Utilities
+DIRECTV *BILL $75.00 08/24,DirectTV,Utilities
+DIRECTV SATELLITE $85.00 08/24,DirectTV,Utilities
+XFINITY *BILL $95.00 08/24,Xfinity,Utilities
+XFINITY INTERNET $120.00 08/24,Xfinity,Utilities
+PLANETFIT 1234 $20.00 08/24,Planet Fitness,Fitness
+PLANETFIT MEMBERSHIP $30.00 08/24,Planet Fitness,Fitness
+EBAY 1234 $50.00 08/24,eBay,Retail
+EBAY PURCHASE $65.00 08/24,eBay,Retail
+ETSY 1234 $40.00 08/24,Etsy,Retail
+ETSY ORDER $55.00 08/24,Etsy,Retail
+SQUARE *PAYMENT $20.00 08/24,Square,Payment
+SQUARE INVOICE $40.00 08/24,Square,Payment
+SAMSUNG *STORE $650.00 08/24,Samsung,Electronics
+SAMSUNG ELECTRONICS $720.00 08/24,Samsung,Electronics
+NIKE.COM $75.00 08/24,Nike,Retail
+NIKE PURCHASE $90.00 08/24,Nike,Retail
+ADIDAS.COM $65.00 08/24,Adidas,Retail
+ADIDAS SHOES $85.00 08/24,Adidas,Retail
+WALMART GROC 1234 $150.00 08/24,Walmart Grocery,Retail
+WALMART GROCERY $200.00 08/24,Walmart Grocery,Retail
+COSTCO 1234 $200.00 08/24,Costco,Retail
+COSTCO WHOLESALE $250.00 08/24,Costco,Retail
+WHOLEFD 1234 $120.00 08/24,Whole Foods,Retail
+WHOLEFD MARKET $145.00 08/24,Whole Foods,Retail
+TRADERJOES 1234 $90.00 08/24,Trader Joe's,Retail
+TRADERJOES MARKET $110.00 08/24,Trader Joe's,Retail
+INSTACART $60.00 08/24,Instacart,Food Delivery
+INSTACART DELIVERY $80.00 08/24,Instacart,Food Delivery
+GRUBHUB 1234 $35.00 08/24,Grubhub,Food Delivery
+GRUBHUB ORDER $45.00 08/24,Grubhub,Food Delivery
+CHIPOTLE 1234 $12.00 08/24,Chipotle,Food & Beverage
+CHIPOTLE BURRITO $18.00 08/24,Chipotle,Food & Beverage
+PANERA 1234 $15.00 08/24,Panera Bread,Food & Beverage
+PANERA LUNCH $22.00 08/24,Panera Bread,Food & Beverage
+DUNKIN 1234 $6.00 08/24,Dunkin',Food & Beverage
+DUNKIN COFFEE $10.00 08/24,Dunkin',Food & Beverage
+KFC 1234 $20.00 08/24,KFC,Food & Beverage
+KFC CHICKEN $30.00 08/24,KFC,Food & Beverage
+BURGERKING 1234 $8.00 08/24,Burger King,Food & Beverage
+BURGERKING MEAL $12.00 08/24,Burger King,Food & Beverage
+SUBWAY 1234 $11.00 08/24,Subway,Food & Beverage
+SUBWAY SANDWICH $15.00 08/24,Subway,Food & Beverage
+Transaction Message,Company Name,Categories
+AMZN MKTP US*67890 $54.99 08/26,Amazon,Retail
+AMAZON.COM*TOYS $25.99 08/26,Amazon,Retail
+APPLE.COM/BILL $14.99 08/26,Apple/iTunes,Subscription
+ITUNES.COM $17.99 08/26,Apple/iTunes,Subscription
+NETFLIX.COM $19.99 08/26,Netflix,Subscription
+NETFLIX SUB $18.99 08/26,Netflix,Subscription
+UBER TRIP $13.50 08/26,Uber,Transportation
+UBER EATS $27.00 08/26,Uber,Food Delivery
+WALMART 5678 $55.77 08/26,Walmart,Retail
+WALMART GROC 1234 $80.20 08/26,Walmart,Retail
+SPOTIFY USA $10.99 08/26,Spotify,Subscription
+SPOTIFY PREMIUM $16.99 08/26,Spotify,Subscription
+PAYPAL *MERCHANT $45.00 08/26,PayPal,Payment
+PAYPAL *EBAY $110.00 08/26,PayPal,Payment
+GOOGLE *SERVICE $11.99 08/26,Google Play,Subscription
+GOOGLE *SUBSCRIPTION $6.99 08/26,Google Play,Subscription
+STARBUCKS $6.00 08/26,Starbucks,Food & Beverage
+STARBUCKS COFFEE $9.00 08/26,Starbucks,Food & Beverage
+MCDONALD'S 5678 $7.75 08/26,McDonald's,Food & Beverage
+MCDONALD'S MEAL $13.00 08/26,McDonald's,Food & Beverage
+TARGET T-5678 $130.00 08/26,Target,Retail
+TARGET STORE 1234 $95.00 08/26,Target,Retail
+LYFT RIDE $17.00 08/26,Lyft,Transportation
+LYFT FARE $23.50 08/26,Lyft,Transportation
+ADOBE *SUBSCRIPTION $55.99 08/26,Adobe,Subscription
+ADOBE CREATIVE $82.99 08/26,Adobe,Subscription
+FACEBOOK ADS $120.00 08/26,Facebook,Advertising
+FACEBOOK PAY $25.00 08/26,Facebook,Payment
+MSFT *BILLING $104.99 08/26,Microsoft,Subscription
+MICROSOFT 365 $74.99 08/26,Microsoft,Subscription
+HULU.COM $13.99 08/26,Hulu,Subscription
+HULU STREAMING $15.99 08/26,Hulu,Subscription
+DISNEYPLUS $9.99 08/26,Disney+,Subscription
+DISNEY+ SUBSCRIPTION $14.99 08/26,Disney+,Subscription
+AIRBNB *RESERVATION $180.00 08/26,Airbnb,Travel & Leisure
+AIRBNB BOOKING $220.00 08/26,Airbnb,Travel & Leisure
+DOORDASH 5678 $30.00 08/26,DoorDash,Food Delivery
+DOORDASH DELIVERY $40.00 08/26,DoorDash,Food Delivery
+BESTBUY 5678 $250.00 08/26,Best Buy,Retail
+BESTBUY ELECTRONICS $320.00 08/26,Best Buy,Electronics
+CVS 5678 $20.50 08/26,CVS Pharmacy,Pharmacy
+CVS PHARMACY $35.50 08/26,CVS Pharmacy,Pharmacy
+VENMO *PAYMENT $40.00 08/26,Venmo,Payment
+VENMO *TRANSFER $55.00 08/26,Venmo,Payment
+HOMEDEPOT 5678 $95.00 08/26,Home Depot,Retail
+HOMEDEPOT TOOLS $160.00 08/26,Home Depot,Home Improvement
+DELTA AIR 5678 $370.00 08/26,Delta Airlines,Travel & Leisure
+DELTA TICKET $480.00 08/26,Delta Airlines,Travel & Leisure
+SWA 5678 $310.00 08/26,Southwest Airlines,Travel & Leisure
+SWA AIRFARE $340.00 08/26,Southwest Airlines,Travel & Leisure
+UNITED 5678 $420.00 08/26,United Airlines,Travel & Leisure
+UNITED FLIGHT $550.00 08/26,United Airlines,Travel & Leisure
+AT&T *BILLPAY $130.00 08/26,AT&T,Utilities
+AT&T WIRELESS $155.00 08/26,AT&T,Utilities
+VERIZON *BILLPAY $140.00 08/26,Verizon,Utilities
+VERIZON WIRELESS $160.00 08/26,Verizon,Utilities
+T-MOBILE *BILLPAY $120.00 08/26,T-Mobile,Utilities
+T-MOBILE PLAN $140.00 08/26,T-Mobile,Utilities
+COMCAST *BILL $105.00 08/26,Comcast,Utilities
+COMCAST INTERNET $135.00 08/26,Comcast,Utilities
+SPECTRUM *BILL $90.00 08/26,Spectrum,Utilities
+SPECTRUM CABLE $115.00 08/26,Spectrum,Utilities
+DIRECTV *BILL $80.00 08/26,DirectTV,Utilities
+DIRECTV SATELLITE $90.00 08/26,DirectTV,Utilities
+XFINITY *BILL $100.00 08/26,Xfinity,Utilities
+XFINITY INTERNET $125.00 08/26,Xfinity,Utilities
+PLANETFIT 5678 $22.00 08/26,Planet Fitness,Fitness
+PLANETFIT MEMBERSHIP $32.00 08/26,Planet Fitness,Fitness
+EBAY 5678 $55.00 08/26,eBay,Retail
+EBAY PURCHASE $70.00 08/26,eBay,Retail
+ETSY 5678 $45.00 08/26,Etsy,Retail
+ETSY ORDER $60.00 08/26,Etsy,Retail
+SQUARE *PAYMENT $25.00 08/26,Square,Payment
+SQUARE INVOICE $50.00 08/26,Square,Payment
+SAMSUNG *STORE $670.00 08/26,Samsung,Electronics
+SAMSUNG ELECTRONICS $740.00 08/26,Samsung,Electronics
+NIKE.COM $80.00 08/26,Nike,Retail
+NIKE PURCHASE $95.00 08/26,Nike,Retail
+ADIDAS.COM $70.00 08/26,Adidas,Retail
+ADIDAS SHOES $90.00 08/26,Adidas,Retail
+WALMART GROC 5678 $160.00 08/26,Walmart Grocery,Retail
+WALMART GROCERY $210.00 08/26,Walmart Grocery,Retail
+COSTCO 5678 $210.00 08/26,Costco,Retail
+COSTCO WHOLESALE $260.00 08/26,Costco,Retail
+WHOLEFD 5678 $130.00 08/26,Whole Foods,Retail
+WHOLEFD MARKET $155.00 08/26,Whole Foods,Retail
+TRADERJOES 5678 $100.00 08/26,Trader Joe's,Retail
+TRADERJOES MARKET $120.00 08/26,Trader Joe's,Retail
+INSTACART $65.00 08/26,Instacart,Food Delivery
+INSTACART DELIVERY $85.00 08/26,Instacart,Food Delivery
+GRUBHUB 5678 $38.00 08/26,Grubhub,Food Delivery
+GRUBHUB ORDER $50.00 08/26,Grubhub,Food Delivery
+CHIPOTLE 5678 $14.00 08/26,Chipotle,Food & Beverage
+CHIPOTLE BURRITO $20.00 08/26,Chipotle,Food & Beverage
+PANERA 5678 $18.00 08/26,Panera Bread,Food & Beverage
+PANERA LUNCH $25.00 08/26,Panera Bread,Food & Beverage
+DUNKIN 5678 $7.00 08/26,Dunkin',Food & Beverage
+DUNKIN COFFEE $11.00 08/26,Dunkin',Food & Beverage
+KFC 5678 $22.00 08/26,KFC,Food & Beverage
+KFC CHICKEN $32.00 08/26,KFC,Food & Beverage
+BURGERKING 5678 $10.00 08/26,Burger King,Food & Beverage
+BURGERKING MEAL $14.00 08/26,Burger King,Food & Beverage
+SUBWAY 5678 $12.00 08/26,Subway,Food & Beverage
+SUBWAY SANDWICH $18.00 08/26,Subway,Food & Beverage
+TACO BELL 5678 $8.00 08/26,Taco Bell,Food & Beverage
+TACO BELL TACO $12.00 08/26,Taco Bell,Food & Beverage
+PAPA JOHN'S 5678 $25.00 08/26,Papa John's,Food & Beverage
+PAPA JOHN'S PIZZA $35.00 08/26,Papa John's,Food & Beverage
+HILTON HOTELS 5678 $150.00 08/26,Hilton Hotels,Travel & Leisure
+HILTON RESERVATION $200.00 08/26,Hilton Hotels,Travel & Leisure
+MARRIOTT HOTELS 5678 $180.00 08/26,Marriott Hotels,Travel & Leisure
+MARRIOTT BOOKING $220.00 08/26,Marriott Hotels,Travel & Leisure
+BUDGET CAR RENTAL $55.00 08/26,Budget,Travel & Leisure
+BUDGET CAR $80.00 08/26,Budget,Travel & Leisure
+ENTERPRISE RENTAL $70.00 08/26,Enterprise,Travel & Leisure
+ENTERPRISE VEHICLE $90.00 08/26,Enterprise,Travel & Leisure
+AVIS CAR RENTAL $65.00 08/26,AVIS,Travel & Leisure
+AVIS RENTAL $85.00 08/26,AVIS,Travel & Leisure
+HERTZ 5678 $75.00 08/26,Hertz,Travel & Leisure
+HERTZ RENTAL $95.00 08/26,Hertz,Travel & Leisure
+LIFTMASTER 5678 $125.00 08/26,LiftMaster,Home Improvement
+LIFTMASTER GARAGE $150.00 08/26,LiftMaster,Home Improvement
+RING.COM $95.00 08/26,Ring,Home Improvement
+RING DOORBELL $125.00 08/26,Ring,Home Improvement
+BLOOMINGDALES $220.00 08/26,Bloomingdale's,Retail
+BLOOMINGDALES SHOP $250.00 08/26,Bloomingdale's,Retail
+MACYS 5678 $140.00 08/26,Macy's,Retail
+MACYS SHOP $180.00 08/26,Macy's,Retail
+JCPENNEY 5678 $110.00 08/26,JCPenney,Retail
+JCPENNEY PURCHASE $140.00 08/26,JCPenney,Retail
+DILLARDS 5678 $90.00 08/26,Dillard's,Retail
+DILLARDS SHOP $120.00 08/26,Dillard's,Retail
+KOHLS 5678 $85.00 08/26,Kohl's,Retail
+KOHLS PURCHASE $115.00 08/26,Kohl's,Retail
+TJMAXX 5678 $130.00 08/26,TJ Maxx,Retail
+TJMAXX SHOP $150.00 08/26,TJ Maxx,Retail
+MARSHALLS 5678 $95.00 08/26,Marshalls,Retail
+MARSHALLS PURCHASE $125.00 08/26,Marshalls,Retail
+CABELAS 5678 $180.00 08/26,Cabela's,Retail
+CABELAS OUTDOORS $220.00 08/26,Cabela's,Retail
+BASS PRO 5678 $200.00 08/26,Bass Pro Shops,Retail
+BASS PRO SHOPPING $230.00 08/26,Bass Pro Shops,Retail
+LULULEMON 5678 $85.00 08/26,Lululemon,Retail
+LULULEMON ACTIVE $120.00 08/26,Lululemon,Retail
+UNDERARMOUR 5678 $75.00 08/26,Under Armour,Retail
+UNDERARMOUR PURCHASE $100.00 08/26,Under Armour,Retail
+ASOS 5678 $70.00 08/26,ASOS,Retail
+ASOS ORDER $90.00 08/26,ASOS,Retail
+URBAN OUTFITTERS 5678 $95.00 08/26,Urban Outfitters,Retail
+URBAN OUTFITTERS SHOP $120.00 08/26,Urban Outfitters,Retail
+REI 5678 $130.00 08/26,REI,Retail
+REI SHOP $160.00 08/26,REI,Retail
+DICK'S SPORTING GOODS 5678 $120.00 08/26,Dick's Sporting Goods,Retail
+DICK'S SHOP $150.00 08/26,Dick's Sporting Goods,Retail
+TRAILHEAD 5678 $140.00 08/26,Trailhead,Retail
+TRAILHEAD OUTDOORS $170.00 08/26,Trailhead,Retail
+TICKETMASTER 5678 $95.00 08/26,Ticketmaster,Entertainment
+TICKETMASTER TICKETS $150.00 08/26,Ticketmaster,Entertainment
+LIVE NATION 5678 $110.00 08/26,Live Nation,Entertainment
+LIVE NATION CONCERT $170.00 08/26,Live Nation,Entertainment
+CONCERTS.COM 5678 $85.00 08/26,Concerts.com,Entertainment
+CONCERTS TICKETS $120.00 08/26,Concerts.com,Entertainment
+FANDANGO 5678 $30.00 08/26,Fandango,Entertainment
+FANDANGO MOVIE $45.00 08/26,Fandango,Entertainment
+AMC THEATERS 5678 $20.00 08/26,AMC Theaters,Entertainment
+AMC MOVIE $25.00 08/26,AMC Theaters,Entertainment
+REGAL CINEMAS 5678 $15.00 08/26,Regal Cinemas,Entertainment
+REGAL MOVIE $22.00 08/26,Regal Cinemas,Entertainment
+CARIBBEAN CRUISE $800.00 08/26,Caribbean Cruises,Travel & Leisure
+CARIBBEAN BOOKING $950.00 08/26,Caribbean Cruises,Travel & Leisure
+EUROPEAN VACATION $1500.00 08/26,European Vacation,Travel & Leisure
+EUROPEAN TOUR $1800.00 08/26,European Vacation,Travel & Leisure
+ASIA TRIP $1200.00 08/26,Asia Trip,Travel & Leisure
+ASIA TOUR $1450.00 08/26,Asia Trip,Travel & Leisure
+SOUTH AMERICA TRIP $900.00 08/26,South America Trip,Travel & Leisure
+SOUTH AMERICA TOUR $1100.00 08/26,South America Trip,Travel & Leisure
+AUSTRALIA VACATION $2000.00 08/26,Australia Vacation,Travel & Leisure
+AUSTRALIA TOUR $2200.00 08/26,Australia Vacation,Travel & Leisure
+AFRICA SAFARI $1700.00 08/26,Africa Safari,Travel & Leisure
+AFRICA TOUR $1950.00 08/26,Africa Safari,Travel & Leisure
+ICELAND TRIP $1400.00 08/26,Iceland Trip,Travel & Leisure
+ICELAND TOUR $1600.00 08/26,Iceland Trip,Travel & Leisure
+ALASKA CRUISE $1700.00 08/26,Alaska Cruise,Travel & Leisure
+ALASKA VACATION $1900.00 08/26,Alaska Cruise,Travel & Leisure
+NEW ZEALAND TOUR $2000.00 08/26,New Zealand Tour,Travel & Leisure
+NEW ZEALAND VACATION $2200.00 08/26,New Zealand Tour,Travel & Leisure
+TRAVEL INSURANCE $120.00 08/26,Travel Insurance,Travel & Leisure
+TRAVEL INSURANCE POLICY $150.00 08/26,Travel Insurance,Travel & Leisure
+Transaction Message,Company Name,Categories
+AMZN MKTP US*12345 $62.30 08/27,Amazon,Retail
+AMAZON.COM*BOOKS $29.99 08/27,Amazon,Retail
+APPLE.COM/BILL $19.99 08/27,Apple/iTunes,Subscription
+ITUNES.COM $14.99 08/27,Apple/iTunes,Subscription
+NETFLIX.COM $21.99 08/27,Netflix,Subscription
+NETFLIX STREAM $19.99 08/27,Netflix,Subscription
+UBER TRIP $15.00 08/27,Uber,Transportation
+UBER EATS $34.00 08/27,Uber,Food Delivery
+WALMART 1234 $67.55 08/27,Walmart,Retail
+WALMART SHOP 5678 $93.20 08/27,Walmart,Retail
+SPOTIFY USA $11.99 08/27,Spotify,Subscription
+SPOTIFY PREMIUM $15.99 08/27,Spotify,Subscription
+PAYPAL *MERCHANT $55.00 08/27,PayPal,Payment
+PAYPAL *TRANSFER $35.00 08/27,PayPal,Payment
+GOOGLE *SERVICE $12.99 08/27,Google Play,Subscription
+GOOGLE *APP $7.99 08/27,Google Play,Subscription
+STARBUCKS $6.50 08/27,Starbucks,Food & Beverage
+STARBUCKS BEVERAGE $8.50 08/27,Starbucks,Food & Beverage
+MCDONALD'S 1234 $9.25 08/27,McDonald's,Food & Beverage
+MCDONALD'S MEAL $14.50 08/27,McDonald's,Food & Beverage
+TARGET T-1234 $142.00 08/27,Target,Retail
+TARGET SHOP 5678 $88.00 08/27,Target,Retail
+LYFT RIDE $18.00 08/27,Lyft,Transportation
+LYFT FARE $25.00 08/27,Lyft,Transportation
+ADOBE *SUBSCRIPTION $59.99 08/27,Adobe,Subscription
+ADOBE CREATIVE $85.99 08/27,Adobe,Subscription
+FACEBOOK ADS $130.00 08/27,Facebook,Advertising
+FACEBOOK PAY $30.00 08/27,Facebook,Payment
+MSFT *BILLING $110.00 08/27,Microsoft,Subscription
+MICROSOFT 365 $79.99 08/27,Microsoft,Subscription
+HULU.COM $14.99 08/27,Hulu,Subscription
+HULU STREAMING $17.99 08/27,Hulu,Subscription
+DISNEYPLUS $12.99 08/27,Disney+,Subscription
+DISNEY+ STREAM $15.99 08/27,Disney+,Subscription
+AIRBNB *RESERVATION $195.00 08/27,Airbnb,Travel & Leisure
+AIRBNB BOOKING $230.00 08/27,Airbnb,Travel & Leisure
+DOORDASH 1234 $28.00 08/27,DoorDash,Food Delivery
+DOORDASH ORDER $45.00 08/27,DoorDash,Food Delivery
+BESTBUY 1234 $275.00 08/27,Best Buy,Retail
+BESTBUY TECH $320.00 08/27,Best Buy,Electronics
+CVS 1234 $22.75 08/27,CVS Pharmacy,Pharmacy
+CVS MEDS $37.00 08/27,CVS Pharmacy,Pharmacy
+VENMO *PAYMENT $50.00 08/27,Venmo,Payment
+VENMO *TRANSFER $60.00 08/27,Venmo,Payment
+HOMEDEPOT 1234 $105.00 08/27,Home Depot,Retail
+HOMEDEPOT MATERIAL $180.00 08/27,Home Depot,Home Improvement
+DELTA AIR 1234 $380.00 08/27,Delta Airlines,Travel & Leisure
+DELTA FLIGHT $490.00 08/27,Delta Airlines,Travel & Leisure
+SWA 1234 $330.00 08/27,Southwest Airlines,Travel & Leisure
+SWA TICKET $355.00 08/27,Southwest Airlines,Travel & Leisure
+UNITED 1234 $430.00 08/27,United Airlines,Travel & Leisure
+UNITED FLIGHT $570.00 08/27,United Airlines,Travel & Leisure
+AT&T *BILLPAY $140.00 08/27,AT&T,Utilities
+AT&T MOBILE $160.00 08/27,AT&T,Utilities
+VERIZON *BILLPAY $150.00 08/27,Verizon,Utilities
+VERIZON MOBILE $170.00 08/27,Verizon,Utilities
+T-MOBILE *BILLPAY $125.00 08/27,T-Mobile,Utilities
+T-MOBILE SERVICE $155.00 08/27,T-Mobile,Utilities
+COMCAST *BILL $110.00 08/27,Comcast,Utilities
+COMCAST TV $140.00 08/27,Comcast,Utilities
+SPECTRUM *BILL $95.00 08/27,Spectrum,Utilities
+SPECTRUM INTERNET $120.00 08/27,Spectrum,Utilities
+DIRECTV *BILL $85.00 08/27,DirectTV,Utilities
+DIRECTV SERVICE $105.00 08/27,DirectTV,Utilities
+XFINITY *BILL $105.00 08/27,Xfinity,Utilities
+XFINITY SERVICE $130.00 08/27,Xfinity,Utilities
+PLANETFIT 1234 $24.00 08/27,Planet Fitness,Fitness
+PLANETFIT GYM $35.00 08/27,Planet Fitness,Fitness
+EBAY 1234 $60.00 08/27,eBay,Retail
+EBAY WIN $75.00 08/27,eBay,Retail
+ETSY 1234 $50.00 08/27,Etsy,Retail
+ETSY ORDER $65.00 08/27,Etsy,Retail
+SQUARE *PAYMENT $30.00 08/27,Square,Payment
+SQUARE INVOICE $55.00 08/27,Square,Payment
+SAMSUNG *STORE $680.00 08/27,Samsung,Electronics
+SAMSUNG ELECTRONICS $750.00 08/27,Samsung,Electronics
+NIKE.COM $85.00 08/27,Nike,Retail
+NIKE PURCHASE $105.00 08/27,Nike,Retail
+ADIDAS.COM $75.00 08/27,Adidas,Retail
+ADIDAS PURCHASE $95.00 08/27,Adidas,Retail
+WALMART GROC 1234 $165.00 08/27,Walmart Grocery,Retail
+WALMART SHOPPING $215.00 08/27,Walmart Grocery,Retail
+COSTCO 1234 $220.00 08/27,Costco,Retail
+COSTCO SHOP $270.00 08/27,Costco,Retail
+WHOLEFD 1234 $140.00 08/27,Whole Foods,Retail
+WHOLEFD GROCERY $165.00 08/27,Whole Foods,Retail
+TRADERJOES 1234 $110.00 08/27,Trader Joe's,Retail
+TRADERJOES SHOP $130.00 08/27,Trader Joe's,Retail
+INSTACART $70.00 08/27,Instacart,Food Delivery
+INSTACART ORDER $90.00 08/27,Instacart,Food Delivery
+GRUBHUB 1234 $42.00 08/27,Grubhub,Food Delivery
+GRUBHUB MEAL $55.00 08/27,Grubhub,Food Delivery
+CHIPOTLE 1234 $16.00 08/27,Chipotle,Food & Beverage
+CHIPOTLE ORDER $22.00 08/27,Chipotle,Food & Beverage
+PANERA 1234 $20.00 08/27,Panera Bread,Food & Beverage
+PANERA LUNCH $27.00 08/27,Panera Bread,Food & Beverage
+DUNKIN 1234 $8.00 08/27,Dunkin',Food & Beverage
+DUNKIN BEVERAGE $12.00 08/27,Dunkin',Food & Beverage
+KFC 1234 $24.00 08/27,KFC,Food & Beverage
+KFC MEAL $35.00 08/27,KFC,Food & Beverage
+BURGERKING 1234 $11.00 08/27,Burger King,Food & Beverage
+BURGERKING BURGER $15.00 08/27,Burger King,Food & Beverage
+SUBWAY 1234 $13.00 08/27,Subway,Food & Beverage
+SUBWAY SANDWICH $19.00 08/27,Subway,Food & Beverage
+TACO BELL 1234 $9.00 08/27,Taco Bell,Food & Beverage
+TACO BELL TACO $13.00 08/27,Taco Bell,Food & Beverage
+PAPA JOHN'S 1234 $30.00 08/27,Papa John's,Food & Beverage
+PAPA JOHN'S PIZZA $40.00 08/27,Papa John's,Food & Beverage
+HILTON HOTELS 1234 $160.00 08/27,Hilton Hotels,Travel & Leisure
+HILTON RESERVATION $210.00 08/27,Hilton Hotels,Travel & Leisure
+MARRIOTT HOTELS 1234 $190.00 08/27,Marriott Hotels,Travel & Leisure
+MARRIOTT BOOKING $230.00 08/27,Marriott Hotels,Travel & Leisure
+BUDGET CAR RENTAL $60.00 08/27,Budget,Travel & Leisure
+BUDGET CAR $85.00 08/27,Budget,Travel & Leisure
+ENTERPRISE RENTAL $75.00 08/27,Enterprise,Travel & Leisure
+ENTERPRISE VEHICLE $95.00 08/27,Enterprise,Travel & Leisure
+AVIS CAR RENTAL $70.00 08/27,AVIS,Travel & Leisure
+AVIS RENTAL $90.00 08/27,AVIS,Travel & Leisure
+HERTZ 1234 $80.00 08/27,Hertz,Travel & Leisure
+HERTZ RENTAL $100.00 08/27,Hertz,Travel & Leisure
+LIFTMASTER 1234 $130.00 08/27,LiftMaster,Home Improvement
+LIFTMASTER GARAGE $160.00 08/27,LiftMaster,Home Improvement
+RING.COM $100.00 08/27,Ring,Home Improvement
+RING DOORBELL $135.00 08/27,Ring,Home Improvement
+BLOOMINGDALES 1234 $230.00 08/27,Bloomingdale's,Retail
+BLOOMINGDALES SHOP $260.00 08/27,Bloomingdale's,Retail
+MACYS 1234 $150.00 08/27,Macy's,Retail
+MACYS SHOP $190.00 08/27,Macy's,Retail
+JCPENNEY 1234 $120.00 08/27,JCPenney,Retail
+JCPENNEY PURCHASE $155.00 08/27,JCPenney,Retail
+DILLARDS 1234 $100.00 08/27,Dillard's,Retail
+DILLARDS SHOP $130.00 08/27,Dillard's,Retail
+KOHLS 1234 $90.00 08/27,Kohl's,Retail
+KOHLS PURCHASE $125.00 08/27,Kohl's,Retail
+TJMAXX 1234 $140.00 08/27,TJ Maxx,Retail
+TJMAXX SHOP $165.00 08/27,TJ Maxx,Retail
+MARSHALLS 1234 $100.00 08/27,Marshalls,Retail
+MARSHALLS PURCHASE $130.00 08/27,Marshalls,Retail
+CABELAS 1234 $190.00 08/27,Cabela's,Retail
+CABELAS OUTDOORS $240.00 08/27,Cabela's,Retail
+BASS PRO 1234 $210.00 08/27,Bass Pro Shops,Retail
+BASS PRO SHOPPING $250.00 08/27,Bass Pro Shops,Retail
+LULULEMON 1234 $90.00 08/27,Lululemon,Retail
+LULULEMON ACTIVE $125.00 08/27,Lululemon,Retail
+UNDERARMOUR 1234 $80.00 08/27,Under Armour,Retail
+UNDERARMOUR PURCHASE $105.00 08/27,Under Armour,Retail
+ASOS 1234 $75.00 08/27,ASOS,Retail
+ASOS ORDER $95.00 08/27,ASOS,Retail
+URBAN OUTFITTERS 1234 $100.00 08/27,Urban Outfitters,Retail
+URBAN OUTFITTERS SHOP $125.00 08/27,Urban Outfitters,Retail
+REI 1234 $135.00 08/27,REI,Retail
+REI SHOP $170.00 08/27,REI,Retail
+DICK'S SPORTING GOODS 1234 $125.00 08/27,Dick's Sporting Goods,Retail
+DICK'S SHOP $155.00 08/27,Dick's Sporting Goods,Retail
+TRAILHEAD 1234 $145.00 08/27,Trailhead,Retail
+TRAILHEAD OUTDOORS $175.00 08/27,Trailhead,Retail
+TICKETMASTER 1234 $100.00 08/27,Ticketmaster,Entertainment
+TICKETMASTER TICKETS $155.00 08/27,Ticketmaster,Entertainment
+LIVE NATION 1234 $115.00 08/27,Live Nation,Entertainment
+LIVE NATION CONCERT $175.00 08/27,Live Nation,Entertainment
+CONCERTS.COM 1234 $90.00 08/27,Concerts.com,Entertainment
+CONCERTS TICKETS $125.00 08/27,Concerts.com,Entertainment
+FANDANGO 1234 $32.00 08/27,Fandango,Entertainment
+FANDANGO MOVIE $48.00 08/27,Fandango,Entertainment
+AMC THEATERS 1234 $22.00 08/27,AMC Theaters,Entertainment
+AMC MOVIE $28.00 08/27,AMC Theaters,Entertainment
+REGAL CINEMAS 1234 $18.00 08/27,Regal Cinemas,Entertainment
+REGAL MOVIE $25.00 08/27,Regal Cinemas,Entertainment
+CARIBBEAN CRUISE $850.00 08/27,Caribbean Cruises,Travel & Leisure
+CARIBBEAN BOOKING $1000.00 08/27,Caribbean Cruises,Travel & Leisure
+EUROPEAN VACATION $1550.00 08/27,European Vacation,Travel & Leisure
+EUROPEAN TOUR $1850.00 08/27,European Vacation,Travel & Leisure
+ASIA TRIP $1250.00 08/27,Asia Trip,Travel & Leisure
+ASIA TOUR $1500.00 08/27,Asia Trip,Travel & Leisure
+SOUTH AMERICA TRIP $950.00 08/27,South America Trip,Travel & Leisure
+SOUTH AMERICA TOUR $1150.00 08/27,South America Trip,Travel & Leisure
+AUSTRALIA VACATION $2100.00 08/27,Australia Vacation,Travel & Leisure
+AUSTRALIA TOUR $2300.00 08/27,Australia Vacation,Travel & Leisure
+AFRICA SAFARI $1750.00 08/27,Africa Safari,Travel & Leisure
+AFRICA TOUR $2000.00 08/27,Africa Safari,Travel & Leisure
+ICELAND TRIP $1450.00 08/27,Iceland Trip,Travel & Leisure
+ICELAND TOUR $1650.00 08/27,Iceland Trip,Travel & Leisure
+ALASKA CRUISE $1750.00 08/27,Alaska Cruise,Travel & Leisure
+ALASKA VACATION $1950.00 08/27,Alaska Cruise,Travel & Leisure
+NEW ZEALAND TOUR $2100.00 08/27,New Zealand Tour,Travel & Leisure
+NEW ZEALAND VACATION $2300.00 08/27,New Zealand Tour,Travel & Leisure
+TRAVEL INSURANCE $130.00 08/27,Travel Insurance,Travel & Leisure
+TRAVEL INSURANCE POLICY $160.00 08/27,Travel Insurance,Travel & Leisure
+Transaction Message,Company Name,Categories
+AMZN MKTP US*54321 $48.75 08/27,Amazon,Retail
+AMAZON.COM*ELECTRONICS $89.99 08/27,Amazon,Retail
+APPLE.COM/BILL $29.99 08/27,Apple/iTunes,Subscription
+ITUNES.COM $12.99 08/27,Apple/iTunes,Subscription
+NETFLIX.COM $18.99 08/27,Netflix,Subscription
+NETFLIX STREAM $22.99 08/27,Netflix,Subscription
+UBER TRIP $22.50 08/27,Uber,Transportation
+UBER EATS $37.00 08/27,Uber,Food Delivery
+WALMART 9876 $85.40 08/27,Walmart,Retail
+WALMART SHOP 4321 $99.60 08/27,Walmart,Retail
+SPOTIFY USA $13.99 08/27,Spotify,Subscription
+SPOTIFY PREMIUM $16.99 08/27,Spotify,Subscription
+PAYPAL *MERCHANT $60.00 08/27,PayPal,Payment
+PAYPAL *TRANSFER $40.00 08/27,PayPal,Payment
+GOOGLE *SERVICE $9.99 08/27,Google Play,Subscription
+GOOGLE *APP $5.99 08/27,Google Play,Subscription
+STARBUCKS $5.75 08/27,Starbucks,Food & Beverage
+STARBUCKS BEVERAGE $7.25 08/27,Starbucks,Food & Beverage
+MCDONALD'S 5678 $8.75 08/27,McDonald's,Food & Beverage
+MCDONALD'S MEAL $12.50 08/27,McDonald's,Food & Beverage
+TARGET T-5678 $120.00 08/27,Target,Retail
+TARGET SHOP 1234 $85.00 08/27,Target,Retail
+LYFT RIDE $20.00 08/27,Lyft,Transportation
+LYFT FARE $30.00 08/27,Lyft,Transportation
+ADOBE *SUBSCRIPTION $54.99 08/27,Adobe,Subscription
+ADOBE CREATIVE $78.99 08/27,Adobe,Subscription
+FACEBOOK ADS $140.00 08/27,Facebook,Advertising
+FACEBOOK PAY $25.00 08/27,Facebook,Payment
+MSFT *BILLING $120.00 08/27,Microsoft,Subscription
+MICROSOFT 365 $75.99 08/27,Microsoft,Subscription
+HULU.COM $16.99 08/27,Hulu,Subscription
+HULU STREAMING $19.99 08/27,Hulu,Subscription
+DISNEYPLUS $13.99 08/27,Disney+,Subscription
+DISNEY+ STREAM $17.99 08/27,Disney+,Subscription
+AIRBNB *RESERVATION $210.00 08/27,Airbnb,Travel & Leisure
+AIRBNB BOOKING $250.00 08/27,Airbnb,Travel & Leisure
+DOORDASH 5678 $30.00 08/27,DoorDash,Food Delivery
+DOORDASH ORDER $50.00 08/27,DoorDash,Food Delivery
+BESTBUY 5678 $320.00 08/27,Best Buy,Retail
+BESTBUY TECH $350.00 08/27,Best Buy,Electronics
+CVS 5678 $28.50 08/27,CVS Pharmacy,Pharmacy
+CVS MEDS $42.00 08/27,CVS Pharmacy,Pharmacy
+VENMO *PAYMENT $55.00 08/27,Venmo,Payment
+VENMO *TRANSFER $65.00 08/27,Venmo,Payment
+HOMEDEPOT 5678 $120.00 08/27,Home Depot,Retail
+HOMEDEPOT MATERIAL $200.00 08/27,Home Depot,Home Improvement
+DELTA AIR 5678 $400.00 08/27,Delta Airlines,Travel & Leisure
+DELTA FLIGHT $520.00 08/27,Delta Airlines,Travel & Leisure
+SWA 5678 $340.00 08/27,Southwest Airlines,Travel & Leisure
+SWA TICKET $375.00 08/27,Southwest Airlines,Travel & Leisure
+UNITED 5678 $450.00 08/27,United Airlines,Travel & Leisure
+UNITED FLIGHT $590.00 08/27,United Airlines,Travel & Leisure
+AT&T *BILLPAY $150.00 08/27,AT&T,Utilities
+AT&T MOBILE $170.00 08/27,AT&T,Utilities
+VERIZON *BILLPAY $160.00 08/27,Verizon,Utilities
+VERIZON MOBILE $180.00 08/27,Verizon,Utilities
+T-MOBILE *BILLPAY $130.00 08/27,T-Mobile,Utilities
+T-MOBILE SERVICE $160.00 08/27,T-Mobile,Utilities
+COMCAST *BILL $120.00 08/27,Comcast,Utilities
+COMCAST TV $150.00 08/27,Comcast,Utilities
+SPECTRUM *BILL $100.00 08/27,Spectrum,Utilities
+SPECTRUM INTERNET $130.00 08/27,Spectrum,Utilities
+DIRECTV *BILL $90.00 08/27,DirectTV,Utilities
+DIRECTV SERVICE $110.00 08/27,DirectTV,Utilities
+XFINITY *BILL $115.00 08/27,Xfinity,Utilities
+XFINITY SERVICE $140.00 08/27,Xfinity,Utilities
+PLANETFIT 5678 $28.00 08/27,Planet Fitness,Fitness
+PLANETFIT GYM $38.00 08/27,Planet Fitness,Fitness
+EBAY 5678 $65.00 08/27,eBay,Retail
+EBAY WIN $85.00 08/27,eBay,Retail
+ETSY 5678 $55.00 08/27,Etsy,Retail
+ETSY ORDER $70.00 08/27,Etsy,Retail
+SQUARE *PAYMENT $35.00 08/27,Square,Payment
+SQUARE INVOICE $60.00 08/27,Square,Payment
+SAMSUNG *STORE $700.00 08/27,Samsung,Electronics
+SAMSUNG ELECTRONICS $780.00 08/27,Samsung,Electronics
+NIKE.COM $90.00 08/27,Nike,Retail
+NIKE PURCHASE $120.00 08/27,Nike,Retail
+ADIDAS.COM $80.00 08/27,Adidas,Retail
+ADIDAS PURCHASE $105.00 08/27,Adidas,Retail
+WALMART GROC 5678 $175.00 08/27,Walmart Grocery,Retail
+WALMART SHOPPING $225.00 08/27,Walmart Grocery,Retail
+COSTCO 5678 $240.00 08/27,Costco,Retail
+COSTCO SHOP $290.00 08/27,Costco,Retail
+WHOLEFD 5678 $150.00 08/27,Whole Foods,Retail
+WHOLEFD GROCERY $180.00 08/27,Whole Foods,Retail
+TRADERJOES 5678 $125.00 08/27,Trader Joe's,Retail
+TRADERJOES SHOP $155.00 08/27,Trader Joe's,Retail
+INSTACART $80.00 08/27,Instacart,Food Delivery
+INSTACART ORDER $100.00 08/27,Instacart,Food Delivery
+GRUBHUB 5678 $45.00 08/27,Grubhub,Food Delivery
+GRUBHUB MEAL $60.00 08/27,Grubhub,Food Delivery
+CHIPOTLE 5678 $17.00 08/27,Chipotle,Food & Beverage
+CHIPOTLE ORDER $23.00 08/27,Chipotle,Food & Beverage
+PANERA 5678 $22.00 08/27,Panera Bread,Food & Beverage
+PANERA LUNCH $30.00 08/27,Panera Bread,Food & Beverage
+DUNKIN 5678 $9.00 08/27,Dunkin',Food & Beverage
+DUNKIN BEVERAGE $13.00 08/27,Dunkin',Food & Beverage
+KFC 5678 $25.00 08/27,KFC,Food & Beverage
+KFC MEAL $37.00 08/27,KFC,Food & Beverage
+BURGERKING 5678 $12.00 08/27,Burger King,Food & Beverage
+BURGERKING BURGER $16.00 08/27,Burger King,Food & Beverage
+SUBWAY 5678 $14.00 08/27,Subway,Food & Beverage
+SUBWAY SANDWICH $20.00 08/27,Subway,Food & Beverage
+TACO BELL 5678 $10.00 08/27,Taco Bell,Food & Beverage
+TACO BELL ORDER $15.00 08/27,Taco Bell,Food & Beverage
+PAPA JOHN'S 5678 $28.00 08/27,Papa John's,Food & Beverage
+PAPA JOHN'S PIZZA $35.00 08/27,Papa John's,Food & Beverage
+HILTON HOTELS 5678 $180.00 08/27,Hilton Hotels,Travel & Leisure
+HILTON RESERVATION $220.00 08/27,Hilton Hotels,Travel & Leisure
+MARRIOTT HOTELS 5678 $200.00 08/27,Marriott Hotels,Travel & Leisure
+MARRIOTT BOOKING $250.00 08/27,Marriott Hotels,Travel & Leisure
+BUDGET CAR RENTAL 5678 $65.00 08/27,Budget,Travel & Leisure
+BUDGET CAR $90.00 08/27,Budget,Travel & Leisure
+ENTERPRISE RENTAL 5678 $80.00 08/27,Enterprise,Travel & Leisure
+ENTERPRISE VEHICLE $100.00 08/27,Enterprise,Travel & Leisure
+AVIS CAR RENTAL 5678 $75.00 08/27,AVIS,Travel & Leisure
+AVIS RENTAL $95.00 08/27,AVIS,Travel & Leisure
+HERTZ 5678 $85.00 08/27,Hertz,Travel & Leisure
+HERTZ RENTAL $105.00 08/27,Hertz,Travel & Leisure
+LIFTMASTER 5678 $140.00 08/27,LiftMaster,Home Improvement
+LIFTMASTER GARAGE $175.00 08/27,LiftMaster,Home Improvement
+RING.COM 5678 $110.00 08/27,Ring,Home Improvement
+RING DOORBELL $145.00 08/27,Ring,Home Improvement
+BLOOMINGDALES 5678 $240.00 08/27,Bloomingdale's,Retail
+BLOOMINGDALES SHOP $275.00 08/27,Bloomingdale's,Retail
+MACYS 5678 $160.00 08/27,Macy's,Retail
+MACYS SHOP $200.00 08/27,Macy's,Retail
+JCPENNEY 5678 $130.00 08/27,JCPenney,Retail
+JCPENNEY PURCHASE $165.00 08/27,JCPenney,Retail
+DILLARDS 5678 $110.00 08/27,Dillard's,Retail
+DILLARDS SHOP $140.00 08/27,Dillard's,Retail
+KOHLS 5678 $95.00 08/27,Kohl's,Retail
+KOHLS PURCHASE $130.00 08/27,Kohl's,Retail
+TJMAXX 5678 $150.00 08/27,TJ Maxx,Retail
+TJMAXX SHOP $175.00 08/27,TJ Maxx,Retail
+MARSHALLS 5678 $110.00 08/27,Marshalls,Retail
+MARSHALLS PURCHASE $140.00 08/27,Marshalls,Retail
+CABELAS 5678 $200.00 08/27,Cabela's,Retail
+CABELAS OUTDOORS $260.00 08/27,Cabela's,Retail
+BASS PRO 5678 $220.00 08/27,Bass Pro Shops,Retail
+BASS PRO SHOPPING $270.00 08/27,Bass Pro Shops,Retail
+LULULEMON 5678 $95.00 08/27,Lululemon,Retail
+LULULEMON ACTIVE $135.00 08/27,Lululemon,Retail
+UNDERARMOUR 5678 $85.00 08/27,Under Armour,Retail
+UNDERARMOUR PURCHASE $110.00 08/27,Under Armour,Retail
+ASOS 5678 $80.00 08/27,ASOS,Retail
+ASOS ORDER $105.00 08/27,ASOS,Retail
+URBAN OUTFITTERS 5678 $105.00 08/27,Urban Outfitters,Retail
+URBAN OUTFITTERS SHOP $140.00 08/27,Urban Outfitters,Retail
+REI 5678 $145.00 08/27,REI,Retail
+REI SHOP $185.00 08/27,REI,Retail
+DICK'S SPORTING GOODS 5678 $135.00 08/27,Dick's Sporting Goods,Retail
+DICK'S SHOP $165.00 08/27,Dick's Sporting Goods,Retail
+TRAILHEAD 5678 $155.00 08/27,Trailhead,Retail
+TRAILHEAD OUTDOORS $185.00 08/27,Trailhead,Retail
+TICKETMASTER 5678 $105.00 08/27,Ticketmaster,Entertainment
+TICKETMASTER TICKETS $160.00 08/27,Ticketmaster,Entertainment
+LIVE NATION 5678 $125.00 08/27,Live Nation,Entertainment
+LIVE NATION CONCERT $185.00 08/27,Live Nation,Entertainment
+CONCERTS.COM 5678 $95.00 08/27,Concerts.com,Entertainment
+CONCERTS TICKETS $135.00 08/27,Concerts.com,Entertainment
+FANDANGO 5678 $35.00 08/27,Fandango,Entertainment
+FANDANGO MOVIE $50.00 08/27,Fandango,Entertainment
+AMC THEATERS 5678 $25.00 08/27,AMC Theaters,Entertainment
+AMC MOVIE $32.00 08/27,AMC Theaters,Entertainment
+REGAL CINEMAS 5678 $20.00 08/27,Regal Cinemas,Entertainment
+REGAL MOVIE $28.00 08/27,Regal Cinemas,Entertainment
+CARIBBEAN CRUISE $900.00 08/27,Caribbean Cruises,Travel & Leisure
+CARIBBEAN BOOKING $1050.00 08/27,Caribbean Cruises,Travel & Leisure
+EUROPEAN VACATION $1600.00 08/27,European Vacation,Travel & Leisure
+EUROPEAN TOUR $1900.00 08/27,European Vacation,Travel & Leisure
+ASIA TRIP $1300.00 08/27,Asia Trip,Travel & Leisure
+ASIA TOUR $1550.00 08/27,Asia Trip,Travel & Leisure
+SOUTH AMERICA TRIP $1000.00 08/27,South America Trip,Travel & Leisure
+SOUTH AMERICA TOUR $1200.00 08/27,South America Trip,Travel & Leisure
+AUSTRALIA VACATION $2200.00 08/27,Australia Vacation,Travel & Leisure
+AUSTRALIA TOUR $2400.00 08/27,Australia Vacation,Travel & Leisure
+AFRICA SAFARI $1800.00 08/27,Africa Safari,Travel & Leisure
+AFRICA TOUR $2050.00 08/27,Africa Safari,Travel & Leisure
+ICELAND TRIP $1500.00 08/27,Iceland Trip,Travel & Leisure
+ICELAND TOUR $1700.00 08/27,Iceland Trip,Travel & Leisure
+ALASKA CRUISE $1800.00 08/27,Alaska Cruise,Travel & Leisure
+ALASKA VACATION $2000.00 08/27,Alaska Cruise,Travel & Leisure
+NEW ZEALAND TOUR $2200.00 08/27,New Zealand Tour,Travel & Leisure
+NEW ZEALAND VACATION $2400.00 08/27,New Zealand Tour,Travel & Leisure
+TRAVEL INSURANCE $140.00 08/27,Travel Insurance,Travel & Leisure
+TRAVEL INSURANCE POLICY $170.00 08/27,Travel Insurance,Travel & Leisure
+Transaction Message,Company Name,Categories
+AMZN MKTP US*67890 $59.20 08/28,Amazon,Retail
+AMAZON.COM*BOOKS $32.45 08/28,Amazon,Retail
+APPLE.COM/BILL $19.99 08/28,Apple/iTunes,Subscription
+ITUNES.COM $8.99 08/28,Apple/iTunes,Subscription
+NETFLIX.COM $15.99 08/28,Netflix,Subscription
+NETFLIX STREAM $21.99 08/28,Netflix,Subscription
+UBER TRIP $28.00 08/28,Uber,Transportation
+UBER EATS $40.75 08/28,Uber,Food Delivery
+WALMART 8765 $92.30 08/28,Walmart,Retail
+WALMART SHOP 5432 $110.50 08/28,Walmart,Retail
+SPOTIFY USA $11.99 08/28,Spotify,Subscription
+SPOTIFY PREMIUM $14.99 08/28,Spotify,Subscription
+PAYPAL *MERCHANT $75.00 08/28,PayPal,Payment
+PAYPAL *TRANSFER $50.00 08/28,PayPal,Payment
+GOOGLE *SERVICE $7.99 08/28,Google Play,Subscription
+GOOGLE *APP $3.99 08/28,Google Play,Subscription
+STARBUCKS $6.25 08/28,Starbucks,Food & Beverage
+STARBUCKS BEVERAGE $8.00 08/28,Starbucks,Food & Beverage
+MCDONALD'S 6789 $9.50 08/28,McDonald's,Food & Beverage
+MCDONALD'S MEAL $14.00 08/28,McDonald's,Food & Beverage
+TARGET T-6789 $95.00 08/28,Target,Retail
+TARGET SHOP 2345 $120.00 08/28,Target,Retail
+LYFT RIDE $18.00 08/28,Lyft,Transportation
+LYFT FARE $27.50 08/28,Lyft,Transportation
+ADOBE *SUBSCRIPTION $49.99 08/28,Adobe,Subscription
+ADOBE CREATIVE $65.99 08/28,Adobe,Subscription
+FACEBOOK ADS $160.00 08/28,Facebook,Advertising
+FACEBOOK PAY $30.00 08/28,Facebook,Payment
+MSFT *BILLING $110.00 08/28,Microsoft,Subscription
+MICROSOFT 365 $85.99 08/28,Microsoft,Subscription
+HULU.COM $14.99 08/28,Hulu,Subscription
+HULU STREAMING $18.99 08/28,Hulu,Subscription
+DISNEYPLUS $12.99 08/28,Disney+,Subscription
+DISNEY+ STREAM $15.99 08/28,Disney+,Subscription
+AIRBNB *RESERVATION $220.00 08/28,Airbnb,Travel & Leisure
+AIRBNB BOOKING $275.00 08/28,Airbnb,Travel & Leisure
+DOORDASH 6789 $35.00 08/28,DoorDash,Food Delivery
+DOORDASH ORDER $45.00 08/28,DoorDash,Food Delivery
+BESTBUY 6789 $290.00 08/28,Best Buy,Retail
+BESTBUY TECH $320.00 08/28,Best Buy,Electronics
+CVS 6789 $25.75 08/28,CVS Pharmacy,Pharmacy
+CVS MEDS $48.00 08/28,CVS Pharmacy,Pharmacy
+VENMO *PAYMENT $65.00 08/28,Venmo,Payment
+VENMO *TRANSFER $70.00 08/28,Venmo,Payment
+HOMEDEPOT 6789 $135.00 08/28,Home Depot,Retail
+HOMEDEPOT MATERIAL $210.00 08/28,Home Depot,Home Improvement
+DELTA AIR 6789 $420.00 08/28,Delta Airlines,Travel & Leisure
+DELTA FLIGHT $540.00 08/28,Delta Airlines,Travel & Leisure
+SWA 6789 $360.00 08/28,Southwest Airlines,Travel & Leisure
+SWA TICKET $400.00 08/28,Southwest Airlines,Travel & Leisure
+UNITED 6789 $470.00 08/28,United Airlines,Travel & Leisure
+UNITED FLIGHT $620.00 08/28,United Airlines,Travel & Leisure
+AT&T *BILLPAY $160.00 08/28,AT&T,Utilities
+AT&T MOBILE $190.00 08/28,AT&T,Utilities
+VERIZON *BILLPAY $170.00 08/28,Verizon,Utilities
+VERIZON MOBILE $200.00 08/28,Verizon,Utilities
+T-MOBILE *BILLPAY $140.00 08/28,T-Mobile,Utilities
+T-MOBILE SERVICE $190.00 08/28,T-Mobile,Utilities
+COMCAST *BILL $130.00 08/28,Comcast,Utilities
+COMCAST TV $160.00 08/28,Comcast,Utilities
+SPECTRUM *BILL $110.00 08/28,Spectrum,Utilities
+SPECTRUM INTERNET $140.00 08/28,Spectrum,Utilities
+DIRECTV *BILL $100.00 08/28,DirectTV,Utilities
+DIRECTV SERVICE $120.00 08/28,DirectTV,Utilities
+XFINITY *BILL $125.00 08/28,Xfinity,Utilities
+XFINITY SERVICE $155.00 08/28,Xfinity,Utilities
+PLANETFIT 6789 $30.00 08/28,Planet Fitness,Fitness
+PLANETFIT GYM $40.00 08/28,Planet Fitness,Fitness
+EBAY 6789 $75.00 08/28,eBay,Retail
+EBAY WIN $95.00 08/28,eBay,Retail
+ETSY 6789 $60.00 08/28,Etsy,Retail
+ETSY ORDER $85.00 08/28,Etsy,Retail
+SQUARE *PAYMENT $40.00 08/28,Square,Payment
+SQUARE INVOICE $70.00 08/28,Square,Payment
+SAMSUNG *STORE $720.00 08/28,Samsung,Electronics
+SAMSUNG ELECTRONICS $800.00 08/28,Samsung,Electronics
+NIKE.COM $95.00 08/28,Nike,Retail
+NIKE PURCHASE $125.00 08/28,Nike,Retail
+ADIDAS.COM $85.00 08/28,Adidas,Retail
+ADIDAS PURCHASE $115.00 08/28,Adidas,Retail
+WALMART GROC 6789 $185.00 08/28,Walmart Grocery,Retail
+WALMART SHOPPING $235.00 08/28,Walmart Grocery,Retail
+COSTCO 6789 $250.00 08/28,Costco,Retail
+COSTCO SHOP $300.00 08/28,Costco,Retail
+WHOLEFD 6789 $160.00 08/28,Whole Foods,Retail
+WHOLEFD GROCERY $200.00 08/28,Whole Foods,Retail
+TRADERJOES 6789 $130.00 08/28,Trader Joe's,Retail
+TRADERJOES SHOP $160.00 08/28,Trader Joe's,Retail
+INSTACART $85.00 08/28,Instacart,Food Delivery
+INSTACART ORDER $110.00 08/28,Instacart,Food Delivery
+GRUBHUB 6789 $50.00 08/28,Grubhub,Food Delivery
+GRUBHUB MEAL $65.00 08/28,Grubhub,Food Delivery
+CHIPOTLE 6789 $18.00 08/28,Chipotle,Food & Beverage
+CHIPOTLE ORDER $25.00 08/28,Chipotle,Food & Beverage
+PANERA 6789 $24.00 08/28,Panera Bread,Food & Beverage
+PANERA LUNCH $32.00 08/28,Panera Bread,Food & Beverage
+DUNKIN 6789 $10.00 08/28,Dunkin',Food & Beverage
+DUNKIN BEVERAGE $14.00 08/28,Dunkin',Food & Beverage
+KFC 6789 $27.00 08/28,KFC,Food & Beverage
+KFC MEAL $38.00 08/28,KFC,Food & Beverage
+BURGERKING 6789 $13.00 08/28,Burger King,Food & Beverage
+BURGERKING BURGER $18.00 08/28,Burger King,Food & Beverage
+SUBWAY 6789 $15.00 08/28,Subway,Food & Beverage
+SUBWAY SANDWICH $22.00 08/28,Subway,Food & Beverage
+TACO BELL 6789 $11.00 08/28,Taco Bell,Food & Beverage
+TACO BELL ORDER $16.00 08/28,Taco Bell,Food & Beverage
+PAPA JOHN'S 6789 $29.00 08/28,Papa John's,Food & Beverage
+PAPA JOHN'S PIZZA $37.00 08/28,Papa John's,Food & Beverage
+HILTON HOTELS 6789 $185.00 08/28,Hilton Hotels,Travel & Leisure
+HILTON RESERVATION $225.00 08/28,Hilton Hotels,Travel & Leisure
+MARRIOTT HOTELS 6789 $210.00 08/28,Marriott Hotels,Travel & Leisure
+MARRIOTT BOOKING $260.00 08/28,Marriott Hotels,Travel & Leisure
+BUDGET CAR RENTAL 6789 $70.00 08/28,Budget,Travel & Leisure
+BUDGET CAR $95.00 08/28,Budget,Travel & Leisure
+ENTERPRISE RENTAL 6789 $85.00 08/28,Enterprise,Travel & Leisure
+ENTERPRISE VEHICLE $105.00 08/28,Enterprise,Travel & Leisure
+AVIS CAR RENTAL 6789 $80.00 08/28,AVIS,Travel & Leisure
+AVIS RENTAL $100.00 08/28,AVIS,Travel & Leisure
+HERTZ 6789 $90.00 08/28,Hertz,Travel & Leisure
+HERTZ RENTAL $115.00 08/28,Hertz,Travel & Leisure
+LIFTMASTER 6789 $145.00 08/28,LiftMaster,Home Improvement
+LIFTMASTER GARAGE $180.00 08/28,LiftMaster,Home Improvement
+RING.COM 6789 $120.00 08/28,Ring,Home Improvement
+RING DOORBELL $150.00 08/28,Ring,Home Improvement
+BLOOMINGDALES 6789 $250.00 08/28,Bloomingdale's,Retail
+BLOOMINGDALES SHOP $285.00 08/28,Bloomingdale's,Retail
+MACYS 6789 $165.00 08/28,Macy's,Retail
+MACYS SHOP $210.00 08/28,Macy's,Retail
+JCPENNEY 6789 $135.00 08/28,JCPenney,Retail
+JCPENNEY PURCHASE $170.00 08/28,JCPenney,Retail
+DILLARDS 6789 $115.00 08/28,Dillard's,Retail
+DILLARDS SHOP $145.00 08/28,Dillard's,Retail
+KOHLS 6789 $100.00 08/28,Kohl's,Retail
+KOHLS PURCHASE $140.00 08/28,Kohl's,Retail
+TJMAXX 6789 $160.00 08/28,TJ Maxx,Retail
+TJMAXX SHOP $185.00 08/28,TJ Maxx,Retail
+MARSHALLS 6789 $120.00 08/28,Marshalls,Retail
+MARSHALLS PURCHASE $150.00 08/28,Marshalls,Retail
+CABELAS 6789 $210.00 08/28,Cabela's,Retail
+CABELAS OUTDOORS $270.00 08/28,Cabela's,Retail
+BASS PRO 6789 $230.00 08/28,Bass Pro Shops,Retail
+BASS PRO SHOPPING $280.00 08/28,Bass Pro Shops,Retail
+LULULEMON 6789 $100.00 08/28,Lululemon,Retail
+LULULEMON ACTIVE $140.00 08/28,Lululemon,Retail
+UNDERARMOUR 6789 $90.00 08/28,Under Armour,Retail
+UNDERARMOUR PURCHASE $115.00 08/28,Under Armour,Retail
+ASOS 6789 $85.00 08/28,ASOS,Retail
+ASOS ORDER $110.00 08/28,ASOS,Retail
+URBAN OUTFITTERS 6789 $110.00 08/28,Urban Outfitters,Retail
+URBAN OUTFITTERS SHOP $150.00 08/28,Urban Outfitters,Retail
+REI 6789 $150.00 08/28,REI,Retail
+REI SHOP $190.00 08/28,REI,Retail
+DICK'S SPORTING GOODS 6789 $140.00 08/28,Dick's Sporting Goods,Retail
+DICK'S SHOP $170.00 08/28,Dick's Sporting Goods,Retail
+TRAILHEAD 6789 $160.00 08/28,Trailhead,Retail
+TRAILHEAD OUTDOORS $200.00 08/28,Trailhead,Retail
+TICKETMASTER 6789 $110.00 08/28,Ticketmaster,Entertainment
+TICKETMASTER TICKETS $165.00 08/28,Ticketmaster,Entertainment
+LIVE NATION 6789 $130.00 08/28,Live Nation,Entertainment
+LIVE NATION CONCERT $190.00 08/28,Live Nation,Entertainment
+CONCERTS.COM 6789 $100.00 08/28,Concerts.com,Entertainment
+CONCERTS TICKETS $140.00 08/28,Concerts.com,Entertainment
+FANDANGO 6789 $40.00 08/28,Fandango,Entertainment
+FANDANGO MOVIE $55.00 08/28,Fandango,Entertainment
+AMC THEATERS 6789 $30.00 08/28,AMC Theaters,Entertainment
+AMC MOVIE $35.00 08/28,AMC Theaters,Entertainment
+REGAL CINEMAS 6789 $25.00 08/28,Regal Cinemas,Entertainment
+REGAL MOVIE $30.00 08/28,Regal Cinemas,Entertainment
+CARIBBEAN CRUISE $950.00 08/28,Caribbean Cruises,Travel & Leisure
+CARIBBEAN BOOKING $1100.00 08/28,Caribbean Cruises,Travel & Leisure
+EUROPEAN VACATION $1650.00 08/28,European Vacation,Travel & Leisure
+EUROPEAN TOUR $2000.00 08/28,European Vacation,Travel & Leisure
+ASIA TRIP $1350.00 08/28,Asia Trip,Travel & Leisure
+ASIA TOUR $1600.00 08/28,Asia Trip,Travel & Leisure
+SOUTH AMERICA TRIP $1050.00 08/28,South America Trip,Travel & Leisure
+SOUTH AMERICA TOUR $1250.00 08/28,South America Trip,Travel & Leisure
+AUSTRALIA VACATION $2300.00 08/28,Australia Vacation,Travel & Leisure
+AUSTRALIA TOUR $2500.00 08/28,Australia Vacation,Travel & Leisure
+AFRICA SAFARI $1850.00 08/28,Africa Safari,Travel & Leisure
+AFRICA TOUR $2100.00 08/28,Africa Safari,Travel & Leisure
+ICELAND TRIP $1550.00 08/28,Iceland Trip,Travel & Leisure
+ICELAND TOUR $1750.00 08/28,Iceland Trip,Travel & Leisure
+ALASKA CRUISE $1900.00 08/28,Alaska Cruise,Travel & Leisure
+ALASKA VACATION $2100.00 08/28,Alaska Cruise,Travel & Leisure
+NEW ZEALAND TOUR $2300.00 08/28,New Zealand Tour,Travel & Leisure
+NEW ZEALAND VACATION $2500.00 08/28,New Zealand Tour,Travel & Leisure
+TRAVEL INSURANCE $150.00 08/28,Travel Insurance,Travel & Leisure
+TRAVEL INSURANCE POLICY $180.00 08/28,Travel Insurance,Travel & Leisure
+Transaction Message,Company Name,Categories
+AMZN MKTP US*34567 $77.85 08/29,Amazon,Retail
+AMAZON.COM*ELECT $123.45 08/29,Amazon,Retail
+APPLE.COM/BILL $29.99 08/29,Apple/iTunes,Subscription
+ITUNES.COM $12.99 08/29,Apple/iTunes,Subscription
+NETFLIX.COM $17.99 08/29,Netflix,Subscription
+NETFLIX STREAM $24.99 08/29,Netflix,Subscription
+UBER TRIP $35.00 08/29,Uber,Transportation
+UBER EATS $48.00 08/29,Uber,Food Delivery
+WALMART 6789 $75.45 08/29,Walmart,Retail
+WALMART SHOP 8765 $140.30 08/29,Walmart,Retail
+SPOTIFY USA $13.99 08/29,Spotify,Subscription
+SPOTIFY PREMIUM $16.99 08/29,Spotify,Subscription
+PAYPAL *MERCHANT $89.00 08/29,PayPal,Payment
+PAYPAL *TRANSFER $55.00 08/29,PayPal,Payment
+GOOGLE *SERVICE $9.99 08/29,Google Play,Subscription
+GOOGLE *APP $4.99 08/29,Google Play,Subscription
+STARBUCKS $7.50 08/29,Starbucks,Food & Beverage
+STARBUCKS BEVERAGE $9.25 08/29,Starbucks,Food & Beverage
+MCDONALD'S 6789 $11.00 08/29,McDonald's,Food & Beverage
+MCDONALD'S MEAL $15.75 08/29,McDonald's,Food & Beverage
+TARGET T-1234 $120.00 08/29,Target,Retail
+TARGET SHOP 5678 $130.50 08/29,Target,Retail
+LYFT RIDE $22.00 08/29,Lyft,Transportation
+LYFT FARE $29.50 08/29,Lyft,Transportation
+ADOBE *SUBSCRIPTION $59.99 08/29,Adobe,Subscription
+ADOBE CREATIVE $74.99 08/29,Adobe,Subscription
+FACEBOOK ADS $180.00 08/29,Facebook,Advertising
+FACEBOOK PAY $40.00 08/29,Facebook,Payment
+MSFT *BILLING $120.00 08/29,Microsoft,Subscription
+MICROSOFT 365 $89.99 08/29,Microsoft,Subscription
+HULU.COM $16.99 08/29,Hulu,Subscription
+HULU STREAMING $21.99 08/29,Hulu,Subscription
+DISNEYPLUS $13.99 08/29,Disney+,Subscription
+DISNEY+ STREAM $17.99 08/29,Disney+,Subscription
+AIRBNB *RESERVATION $250.00 08/29,Airbnb,Travel & Leisure
+AIRBNB BOOKING $295.00 08/29,Airbnb,Travel & Leisure
+DOORDASH 6789 $42.00 08/29,DoorDash,Food Delivery
+DOORDASH ORDER $55.00 08/29,DoorDash,Food Delivery
+BESTBUY 6789 $310.00 08/29,Best Buy,Retail
+BESTBUY TECH $340.00 08/29,Best Buy,Electronics
+CVS 6789 $28.50 08/29,CVS Pharmacy,Pharmacy
+CVS MEDS $50.75 08/29,CVS Pharmacy,Pharmacy
+VENMO *PAYMENT $72.00 08/29,Venmo,Payment
+VENMO *TRANSFER $85.00 08/29,Venmo,Payment
+HOMEDEPOT 6789 $145.00 08/29,Home Depot,Retail
+HOMEDEPOT MATERIAL $220.00 08/29,Home Depot,Home Improvement
+DELTA AIR 6789 $450.00 08/29,Delta Airlines,Travel & Leisure
+DELTA FLIGHT $560.00 08/29,Delta Airlines,Travel & Leisure
+SWA 6789 $380.00 08/29,Southwest Airlines,Travel & Leisure
+SWA TICKET $420.00 08/29,Southwest Airlines,Travel & Leisure
+UNITED 6789 $480.00 08/29,United Airlines,Travel & Leisure
+UNITED FLIGHT $630.00 08/29,United Airlines,Travel & Leisure
+AT&T *BILLPAY $170.00 08/29,AT&T,Utilities
+AT&T MOBILE $200.00 08/29,AT&T,Utilities
+VERIZON *BILLPAY $180.00 08/29,Verizon,Utilities
+VERIZON MOBILE $210.00 08/29,Verizon,Utilities
+T-MOBILE *BILLPAY $150.00 08/29,T-Mobile,Utilities
+T-MOBILE SERVICE $200.00 08/29,T-Mobile,Utilities
+COMCAST *BILL $140.00 08/29,Comcast,Utilities
+COMCAST TV $170.00 08/29,Comcast,Utilities
+SPECTRUM *BILL $120.00 08/29,Spectrum,Utilities
+SPECTRUM INTERNET $150.00 08/29,Spectrum,Utilities
+DIRECTV *BILL $110.00 08/29,DirectTV,Utilities
+DIRECTV SERVICE $130.00 08/29,DirectTV,Utilities
+XFINITY *BILL $135.00 08/29,Xfinity,Utilities
+XFINITY SERVICE $165.00 08/29,Xfinity,Utilities
+PLANETFIT 6789 $32.00 08/29,Planet Fitness,Fitness
+PLANETFIT GYM $42.00 08/29,Planet Fitness,Fitness
+EBAY 6789 $85.00 08/29,eBay,Retail
+EBAY WIN $100.00 08/29,eBay,Retail
+ETSY 6789 $65.00 08/29,Etsy,Retail
+ETSY ORDER $90.00 08/29,Etsy,Retail
+SQUARE *PAYMENT $45.00 08/29,Square,Payment
+SQUARE INVOICE $75.00 08/29,Square,Payment
+SAMSUNG *STORE $740.00 08/29,Samsung,Electronics
+SAMSUNG ELECTRONICS $820.00 08/29,Samsung,Electronics
+NIKE.COM $105.00 08/29,Nike,Retail
+NIKE PURCHASE $135.00 08/29,Nike,Retail
+ADIDAS.COM $90.00 08/29,Adidas,Retail
+ADIDAS PURCHASE $120.00 08/29,Adidas,Retail
+WALMART GROC 6789 $195.00 08/29,Walmart Grocery,Retail
+WALMART SHOPPING $245.00 08/29,Walmart Grocery,Retail
+COSTCO 6789 $260.00 08/29,Costco,Retail
+COSTCO SHOP $320.00 08/29,Costco,Retail
+WHOLEFD 6789 $170.00 08/29,Whole Foods,Retail
+WHOLEFD GROCERY $215.00 08/29,Whole Foods,Retail
+TRADERJOES 6789 $140.00 08/29,Trader Joe's,Retail
+TRADERJOES SHOP $175.00 08/29,Trader Joe's,Retail
+INSTACART $90.00 08/29,Instacart,Food Delivery
+INSTACART ORDER $115.00 08/29,Instacart,Food Delivery
+GRUBHUB 6789 $55.00 08/29,Grubhub,Food Delivery
+GRUBHUB MEAL $68.00 08/29,Grubhub,Food Delivery
+CHIPOTLE 6789 $22.00 08/29,Chipotle,Food & Beverage
+CHIPOTLE ORDER $28.00 08/29,Chipotle,Food & Beverage
+PANERA 6789 $28.00 08/29,Panera Bread,Food & Beverage
+PANERA LUNCH $36.00 08/29,Panera Bread,Food & Beverage
+DUNKIN 6789 $12.00 08/29,Dunkin',Food & Beverage
+DUNKIN BEVERAGE $16.00 08/29,Dunkin',Food & Beverage
+KFC 6789 $29.00 08/29,KFC,Food & Beverage
+KFC MEAL $40.00 08/29,KFC,Food & Beverage
+BURGERKING 6789 $15.00 08/29,Burger King,Food & Beverage
+BURGERKING BURGER $20.00 08/29,Burger King,Food & Beverage
+SUBWAY 6789 $17.00 08/29,Subway,Food & Beverage
+SUBWAY SANDWICH $23.00 08/29,Subway,Food & Beverage
+TACO BELL 6789 $12.00 08/29,Taco Bell,Food & Beverage
+TACO BELL ORDER $16.00 08/29,Taco Bell,Food & Beverage
+PAPA JOHN'S 6789 $29.00 08/29,Papa John's,Food & Beverage
+PAPA JOHN'S PIZZA $37.00 08/29,Papa John's,Food & Beverage
+HILTON HOTELS 6789 $185.00 08/29,Hilton Hotels,Travel & Leisure
+HILTON RESERVATION $225.00 08/29,Hilton Hotels,Travel & Leisure
+MARRIOTT HOTELS 6789 $210.00 08/29,Marriott Hotels,Travel & Leisure
+MARRIOTT BOOKING $260.00 08/29,Marriott Hotels,Travel & Leisure
+BUDGET CAR RENTAL 6789 $70.00 08/29,Budget,Travel & Leisure
+BUDGET CAR $95.00 08/29,Budget,Travel & Leisure
+ENTERPRISE RENTAL 6789 $85.00 08/29,Enterprise,Travel & Leisure
+ENTERPRISE VEHICLE $105.00 08/29,Enterprise,Travel & Leisure
+AVIS CAR RENTAL 6789 $80.00 08/29,AVIS,Travel & Leisure
+AVIS RENTAL $100.00 08/29,AVIS,Travel & Leisure
+HERTZ 6789 $90.00 08/29,Hertz,Travel & Leisure
+HERTZ RENTAL $115.00 08/29,Hertz,Travel & Leisure
+LIFTMASTER 6789 $145.00 08/29,LiftMaster,Home Improvement
+LIFTMASTER GARAGE $180.00 08/29,LiftMaster,Home Improvement
+RING.COM 6789 $120.00 08/29,Ring,Home Improvement
+RING DOORBELL $150.00 08/29,Ring,Home Improvement
+BLOOMINGDALES 6789 $250.00 08/29,Bloomingdale's,Retail
+BLOOMINGDALES SHOP $285.00 08/29,Bloomingdale's,Retail
+MACYS 6789 $165.00 08/29,Macy's,Retail
+MACYS SHOP $210.00 08/29,Macy's,Retail
+JCPENNEY 6789 $135.00 08/29,JCPenney,Retail
+JCPENNEY PURCHASE $170.00 08/29,JCPenney,Retail
+DILLARDS 6789 $115.00 08/29,Dillard's,Retail
+DILLARDS SHOP $145.00 08/29,Dillard's,Retail
+KOHLS 6789 $100.00 08/29,Kohl's,Retail
+KOHLS PURCHASE $140.00 08/29,Kohl's,Retail
+TJMAXX 6789 $160.00 08/29,TJ Maxx,Retail
+TJMAXX SHOP $185.00 08/29,TJ Maxx,Retail
+MARSHALLS 6789 $120.00 08/29,Marshalls,Retail
+MARSHALLS PURCHASE $150.00 08/29,Marshalls,Retail
+CABELAS 6789 $210.00 08/29,Cabela's,Retail
+CABELAS OUTDOORS $270.00 08/29,Cabela's,Retail
+BASS PRO 6789 $230.00 08/29,Bass Pro Shops,Retail
+BASS PRO SHOPPING $280.00 08/29,Bass Pro Shops,Retail
+LULULEMON 6789 $100.00 08/29,Lululemon,Retail
+LULULEMON ACTIVE $140.00 08/29,Lululemon,Retail
+UNDERARMOUR 6789 $90.00 08/29,Under Armour,Retail
+UNDERARMOUR PURCHASE $115.00 08/29,Under Armour,Retail
+ASOS 6789 $85.00 08/29,ASOS,Retail
+ASOS ORDER $110.00 08/29,ASOS,Retail
+URBAN OUTFITTERS 6789 $110.00 08/29,Urban Outfitters,Retail
+URBAN OUTFITTERS SHOP $150.00 08/29,Urban Outfitters,Retail
+REI 6789 $150.00 08/29,REI,Retail
+REI SHOP $190.00 08/29,REI,Retail
+DICK'S SPORTING GOODS 6789 $140.00 08/29,Dick's Sporting Goods,Retail
+DICK'S SHOP $170.00 08/29,Dick's Sporting Goods,Retail
+TRAILHEAD 6789 $160.00 08/29,Trailhead,Retail
+TRAILHEAD OUTDOORS $200.00 08/29,Trailhead,Retail
+TICKETMASTER 6789 $110.00 08/29,Ticketmaster,Entertainment
+TICKETMASTER TICKETS $165.00 08/29,Ticketmaster,Entertainment
+LIVE NATION 6789 $130.00 08/29,Live Nation,Entertainment
+LIVE NATION CONCERT $190.00 08/29,Live Nation,Entertainment
+CONCERTS.COM 6789 $100.00 08/29,Concerts.com,Entertainment
+CONCERTS TICKETS $140.00 08/29,Concerts.com,Entertainment
+FANDANGO 6789 $40.00 08/29,Fandango,Entertainment
+FANDANGO MOVIE $55.00 08/29,Fandango,Entertainment
+AMC THEATERS 6789 $30.00 08/29,AMC Theaters,Entertainment
+AMC MOVIE $35.00 08/29,AMC Theaters,Entertainment
+REGAL CINEMAS 6789 $25.00 08/29,Regal Cinemas,Entertainment
+REGAL MOVIE $30.00 08/29,Regal Cinemas,Entertainment
+CARIBBEAN CRUISE $950.00 08/29,Caribbean Cruises,Travel & Leisure
+CARIBBEAN BOOKING $1100.00 08/29,Caribbean Cruises,Travel & Leisure
+EUROPEAN VACATION $1650.00 08/29,European Vacation,Travel & Leisure
+EUROPEAN TOUR $2000.00 08/29,European Vacation,Travel & Leisure
+ASIA TRIP $1350.00 08/29,Asia Trip,Travel & Leisure
+ASIA TOUR $1600.00 08/29,Asia Trip,Travel & Leisure
+SOUTH AMERICA TRIP $1050.00 08/29,South America Trip,Travel & Leisure
+SOUTH AMERICA TOUR $1250.00 08/29,South America Trip,Travel & Leisure
+AUSTRALIA VACATION $2300.00 08/29,Australia Vacation,Travel & Leisure
+AUSTRALIA TOUR $2500.00 08/29,Australia Vacation,Travel & Leisure
+AFRICA SAFARI $1850.00 08/29,Africa Safari,Travel & Leisure
+AFRICA TOUR $2100.00 08/29,Africa Safari,Travel & Leisure
+ICELAND TRIP $1550.00 08/29,Iceland Trip,Travel & Leisure
+ICELAND TOUR $1750.00 08/29,Iceland Trip,Travel & Leisure
+ALASKA CRUISE $1900.00 08/29,Alaska Cruise,Travel & Leisure
+ALASKA VACATION $2100.00 08/29,Alaska Cruise,Travel & Leisure
+NEW ZEALAND TOUR $2300.00 08/29,New Zealand Tour,Travel & Leisure
+NEW ZEALAND VACATION $2500.00 08/29,New Zealand Tour,Travel & Leisure
+TRAVEL INSURANCE $150.00 08/29,Travel Insurance,Travel & Leisure
+TRAVEL INSURANCE POLICY $180.00 08/29,Travel Insurance,Travel & Leisure
