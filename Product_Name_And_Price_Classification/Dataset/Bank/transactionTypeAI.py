@@ -18,8 +18,8 @@ def preprocess_data(file_path):
     print(df.head())
     
     # Extract data from columns
-    inputs = df['i'].tolist()  # Assuming this is the correct column name
-    outputs = df['o'].tolist()  # Assuming this is the correct column name
+    inputs = df[['TXN_DESC', 'category']].agg(' '.join, axis=1).tolist()  # Combine into one input
+    outputs = df['transaction_type'].tolist()  # Assuming this is the correct column name for output
     
     return inputs, outputs
 
@@ -116,12 +116,15 @@ def load_model_and_metadata(model_file):
     
     return model, encoder_tokenizer, decoder_tokenizer, max_input_length, max_output_length
 
+gotModel = False
+
 if __name__ == "__main__":
     train_flag = False  # Set to False if you want to load a pre-trained model and skip training
     
     if train_flag:
         # File path to your CSV file
-        file_path = './transaction-categories-dataset.csv'
+        file_path = input("csv filepath: ")
+        modelName = input("Model Name: ")
         
         # Load and preprocess data
         inputs, outputs = preprocess_data(file_path)
@@ -147,15 +150,23 @@ if __name__ == "__main__":
         
         model = create_seq2seq_model(input_vocab_size, output_vocab_size, max_input_length, max_output_length)
         train_model(model, encoder_input_train, decoder_input_train, decoder_output_train, epochs=10)
-        #model = load_model('seq2seq_model.h5')
+        
         # Save the model and metadata
-        save_model_and_metadata(model, 'seq2seq_transection_categories_model.h5', encoder_tokenizer, decoder_tokenizer, max_input_length, max_output_length)
+        save_model_and_metadata(model, f'{modelName}.h5', encoder_tokenizer, decoder_tokenizer, max_input_length, max_output_length)
+        gotModel = True
     else:
         # Load the pre-trained model and metadata
-        model, encoder_tokenizer, decoder_tokenizer, max_input_length, max_output_length = load_model_and_metadata('seq2seq_transection_categories_model.h5')
-    
+        try:
+            modelName = input("Model Name: ")
+            model, encoder_tokenizer, decoder_tokenizer, max_input_length, max_output_length = load_model_and_metadata(modelName)
+            gotModel = True
+        except:
+            print("No Trained Model Found")
+
     # Predict a new sequence
     while True:
+        if gotModel is False:
+            break
         input_text = input("Line: ")
         if input_text == "q":
             break
